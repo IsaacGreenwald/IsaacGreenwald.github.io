@@ -11,7 +11,7 @@ const Contact = () => {
       </div>
       <div className="social-links">
         <a
-          href="https://github.com/your-github-username"
+          href="https://github.com/IsaacGreenwald"
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
@@ -19,7 +19,7 @@ const Contact = () => {
           <img src={ghub} alt="GitHub" className="social-logo" />
         </a>
         <a
-          href="https://linkedin.com/in/your-linkedin-username"
+          href="www.linkedin.com/in/isaac-greenwald"
           target="_blank"
           rel="noopener noreferrer"
           className="social-link"
