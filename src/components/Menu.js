@@ -1,4 +1,3 @@
-// src/components/Menu.js
 import React from 'react';
 
 const Menu = ({ onMenuClick, activeSection }) => {

@@ -1,7 +1,15 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+
 
 const Home = () => {
   return (
+    <motion.div
+      className="projects"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
+    >
     <div className="home">
       
       <p className="home-text">
@@ -11,6 +19,7 @@ const Home = () => {
         machine learning and data science. In my free time, I love rock climbing, photography, spending time in the darkroom, and skiing. 
       </p>
     </div>
+    </motion.div>
   );
 };
 
