@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IsaacGreenwald.github.io/static/css/main.f53e405b.css",
+    "main.js": "/IsaacGreenwald.github.io/static/js/main.155ed234.js",
+    "static/js/453.c49f38d8.chunk.js": "/IsaacGreenwald.github.io/static/js/453.c49f38d8.chunk.js",
+    "index.html": "/IsaacGreenwald.github.io/index.html",
+    "main.f53e405b.css.map": "/IsaacGreenwald.github.io/static/css/main.f53e405b.css.map",
+    "main.155ed234.js.map": "/IsaacGreenwald.github.io/static/js/main.155ed234.js.map",
+    "453.c49f38d8.chunk.js.map": "/IsaacGreenwald.github.io/static/js/453.c49f38d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f53e405b.css",
+    "static/js/main.155ed234.js"
+  ]
+}
