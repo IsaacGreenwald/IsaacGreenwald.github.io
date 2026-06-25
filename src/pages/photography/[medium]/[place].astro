@@ -1,0 +1,52 @@
+---
+import Base from '../../../layouts/Base.astro';
+import PhotoGrid from '../../../components/PhotoGrid.astro';
+import { getAllPortfolios, mediumName, placeName } from '../../../lib/photos.js';
+
+export function getStaticPaths() {
+  return getAllPortfolios().map(({ medium, place, photos }) => ({
+    params: { medium, place },
+    props: { photos }
+  }));
+}
+
+const { medium, place } = Astro.params;
+const { photos } = Astro.props;
+---
+
+<Base title={`${placeName(place)} — Photography`}>
+  <main>
+    <header>
+      <a href="/photography" class="back">← Photography</a>
+      <h1>{placeName(place)}</h1>
+      <p class="meta">{mediumName(medium)} · {photos.length} photos</p>
+    </header>
+
+    <PhotoGrid photos={photos} layout="justified" frame="none" />
+  </main>
+
+  <style>
+    main {
+      padding: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .back {
+      text-decoration: none;
+      font-size: 0.875rem;
+      opacity: 0.6;
+      transition: opacity 0.2s;
+    }
+    .back:hover { opacity: 1; }
+    h1 {
+      font-size: 2rem;
+      font-weight: 400;
+      margin-top: 0.5rem;
+    }
+    .meta {
+      font-size: 0.875rem;
+      opacity: 0.5;
+      margin: 0.25rem 0 2rem;
+    }
+  </style>
+</Base>

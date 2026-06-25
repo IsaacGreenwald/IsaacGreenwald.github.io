@@ -1,0 +1,74 @@
+---
+import PhotoLayout from '../../../layouts/PhotoLayout.astro';
+import JustifiedGallery from '../../../components/JustifiedGallery.jsx';
+import { getDigitalSets } from '../../../lib/photos.js';
+
+export function getStaticPaths() {
+  return getDigitalSets().map(set => ({
+    params: { place: set.place },
+    props: { set }
+  }));
+}
+
+const { set } = Astro.props;
+---
+
+<PhotoLayout title={`${set.name} — Digital`} active="digital">
+  <main class="page">
+    <header class="head">
+      <a class="back" href="/photography/digital">← Digital</a>
+      <h1>{set.name}</h1>
+      <p class="meta">
+        <span>{set.count} frames</span>
+        {set.region && <span class="dot">·</span>}
+        {set.region && <span>{set.region}</span>}
+        {set.year && <span class="dot">·</span>}
+        {set.year && <span>{set.year}</span>}
+      </p>
+    </header>
+
+    <JustifiedGallery photos={set.photos} targetRowHeight={440} gap={16} rowGap={40} client:visible />
+  </main>
+
+  <style>
+    .page {
+      flex: 1;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 1rem 2.25rem 5rem;
+    }
+    .head {
+      margin: clamp(0.5rem, 4vh, 2.5rem) 0 2.5rem;
+    }
+    .back {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      opacity: 0.5;
+      transition: opacity 0.2s ease;
+    }
+    .back:hover { opacity: 1; }
+    .head h1 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      font-size: clamp(2rem, 4.5vw, 3.25rem);
+      line-height: 1.05;
+      margin-top: 0.9rem;
+    }
+    .meta {
+      margin-top: 0.6rem;
+      display: flex;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #8a8a8a;
+    }
+    .meta .dot { opacity: 0.5; }
+
+    @media (max-width: 540px) {
+      .page { padding: 1rem 1.25rem 4rem; }
+    }
+  </style>
+</PhotoLayout>

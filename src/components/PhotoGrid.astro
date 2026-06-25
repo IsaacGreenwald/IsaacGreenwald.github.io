@@ -1,0 +1,160 @@
+---
+import { srcset } from '../lib/photos.js';
+
+const {
+  photos,
+  layout = 'justified',
+  frame = 'none',
+  order = 'source',
+  id = 'grid'
+} = Astro.props;
+
+function orientation(ar) {
+  if (ar >= 1.3) return 'landscape';
+  if (ar <= 0.77) return 'portrait';
+  return 'square';
+}
+
+// Spread orientations evenly so portraits/landscapes don't clump.
+// Greedily pulls from whichever bucket is least-consumed proportionally.
+function interleave(items) {
+  const buckets = { landscape: [], portrait: [], square: [] };
+  for (const it of items) buckets[it.orient].push(it);
+
+  const idx = { landscape: 0, portrait: 0, square: 0 };
+  const result = [];
+  while (result.length < items.length) {
+    let pick = null;
+    let best = Infinity;
+    for (const k of ['landscape', 'portrait', 'square']) {
+      if (idx[k] >= buckets[k].length) continue;
+      const frac = idx[k] / buckets[k].length;
+      if (frac < best) { best = frac; pick = k; }
+    }
+    result.push(buckets[pick][idx[pick]++]);
+  }
+  return result;
+}
+
+let items = photos.map(photo => {
+  const ar = photo.width / photo.height;
+  return { photo, ar, orient: orientation(ar) };
+});
+
+if (order === 'interleave') items = interleave(items);
+---
+
+<div class="photo-grid" data-layout={layout} data-frame={frame} id={id}>
+  {items.map(({ photo, ar, orient }) => (
+    <figure class={`photo ${orient}`} style={`--ar:${ar}`}>
+      <img
+        src={`${photo.src}-800.webp`}
+        srcset={srcset(photo)}
+        sizes="(max-width: 600px) 100vw, 50vw"
+        width={photo.width}
+        height={photo.height}
+        alt=""
+        loading="lazy"
+        style={`background-image:url(${photo.placeholder});background-size:cover;`}
+        onload="this.style.backgroundImage='none'"
+      />
+    </figure>
+  ))}
+</div>
+
+<style>
+  .photo-grid {
+    --gap: 8px;
+    --row-h: 280px;
+    --cols: 4;
+    --grid-min: 220px;
+    --mosaic-cell: 200px;
+    --matte: #fff;
+    width: 100%;
+  }
+
+  .photo {
+    margin: 0;
+    overflow: hidden;
+    background: #111;
+  }
+
+  .photo img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ---------- JUSTIFIED ROWS ---------- */
+  .photo-grid[data-layout='justified'] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+  }
+  .photo-grid[data-layout='justified'] .photo {
+    height: var(--row-h);
+    width: calc(var(--ar) * var(--row-h));
+    flex: 0 0 auto;
+  }
+
+  /* ---------- MASONRY ---------- */
+  .photo-grid[data-layout='masonry'] {
+    column-count: var(--cols);
+    column-gap: var(--gap);
+  }
+  .photo-grid[data-layout='masonry'] .photo {
+    break-inside: avoid;
+    margin-bottom: var(--gap);
+  }
+  .photo-grid[data-layout='masonry'] .photo img {
+    height: auto;
+  }
+
+  /* ---------- UNIFORM GRID ---------- */
+  .photo-grid[data-layout='grid'] {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));
+    gap: var(--gap);
+  }
+  .photo-grid[data-layout='grid'] .photo {
+    aspect-ratio: 1;
+  }
+
+  /* ---------- MOSAIC (orientation-aware spans) ---------- */
+  /* Fixed square base cell → spans give exact 3:2 / 2:3 aspect, no crop */
+  .photo-grid[data-layout='mosaic'] {
+    --mosaic-cell: 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--mosaic-cell));
+    grid-auto-rows: var(--mosaic-cell);
+    grid-auto-flow: dense;
+    gap: var(--gap);
+    justify-content: center;
+  }
+  .photo-grid[data-layout='mosaic'] .landscape {
+    grid-column: span 3;
+    grid-row: span 2;
+  }
+  .photo-grid[data-layout='mosaic'] .portrait {
+    grid-column: span 2;
+    grid-row: span 3;
+  }
+  .photo-grid[data-layout='mosaic'] .square {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  /* ---------- FRAMES ---------- */
+  .photo-grid[data-frame='border'] .photo {
+    border: 1px solid #333;
+  }
+  .photo-grid[data-frame='matte'] .photo {
+    border: 12px solid var(--matte);
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.5);
+    background: var(--matte);
+  }
+  .photo-grid[data-frame='shadow'] .photo {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.55);
+  }
+</style>

@@ -1,0 +1,139 @@
+---
+import PhotoLayout from '../../../layouts/PhotoLayout.astro';
+import { getDigitalSets, srcset } from '../../../lib/photos.js';
+
+const sets = getDigitalSets();
+---
+
+<PhotoLayout title="Digital — Isaac Greenwald" active="digital">
+  <main class="page">
+    <section class="sets">
+      {sets.map((set, i) => (
+        <a class="set" href={`/photography/digital/${set.place}`} style={`--i:${i}`}>
+          <div class="frame">
+            <img
+              src={`${set.cover.src}-800.webp`}
+              srcset={srcset(set.cover)}
+              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
+              width={set.cover.width}
+              height={set.cover.height}
+              alt={set.name}
+              loading={i < 3 ? 'eager' : 'lazy'}
+              style={`background-image:url(${set.cover.placeholder});background-size:cover;`}
+              onload="this.style.backgroundImage='none'"
+            />
+            <div class="scrim"></div>
+            <div class="label">
+              <h2>{set.name}</h2>
+              <p class="meta">
+                <span>{set.count} frames</span>
+                {set.region && <span class="dot">·</span>}
+                {set.region && <span>{set.region}</span>}
+              </p>
+            </div>
+          </div>
+        </a>
+      ))}
+    </section>
+  </main>
+
+  <style>
+    .page {
+      flex: 1;
+      width: 100%;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 1rem 2.25rem 5rem;
+    }
+
+    .intro {
+      max-width: 40rem;
+      margin: clamp(1rem, 5vh, 3.5rem) 0 3rem;
+    }
+    .eyebrow {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: #8a8a8a;
+      margin-bottom: 1rem;
+    }
+    .intro h1 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      font-size: clamp(1.9rem, 4vw, 3rem);
+      line-height: 1.08;
+      letter-spacing: -0.01em;
+    }
+
+    .sets {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .set {
+      display: block;
+      animation: rise 0.7s both;
+      animation-delay: calc(var(--i) * 60ms);
+    }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: none; }
+    }
+
+    .frame {
+      position: relative;
+      aspect-ratio: 4 / 5;
+      overflow: hidden;
+      background: #111;
+    }
+    .frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      filter: brightness(0.82);
+      transition: transform 0.6s cubic-bezier(0.2, 0.6, 0.2, 1), filter 0.5s ease;
+    }
+    .set:hover .frame img {
+      transform: scale(1.045);
+      filter: brightness(1);
+    }
+
+    .scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0, 0, 0, 0.72) 0%, rgba(0, 0, 0, 0.15) 38%, rgba(0, 0, 0, 0) 62%);
+      pointer-events: none;
+    }
+
+    .label {
+      position: absolute;
+      left: 1.15rem;
+      right: 1.15rem;
+      bottom: 1.05rem;
+      color: #fff;
+    }
+    .label h2 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      font-size: 1.6rem;
+      line-height: 1.1;
+    }
+    .meta {
+      margin-top: 0.35rem;
+      display: flex;
+      gap: 0.5rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: rgba(255, 255, 255, 0.78);
+    }
+    .meta .dot { opacity: 0.5; }
+
+    @media (max-width: 540px) {
+      .page { padding: 1rem 1.25rem 4rem; }
+      .sets { grid-template-columns: 1fr; }
+    }
+  </style>
+</PhotoLayout>

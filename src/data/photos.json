@@ -1,0 +1,3382 @@
+[
+  {
+    "id": "bw-europe-eurofilm1",
+    "src": "/photos/bw-europe-eurofilm1",
+    "location": "bw\\europe",
+    "width": 2222,
+    "height": 3333,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAB4APzGCtVOuqKUisAwB0CYJaQAAQQrr4bq0ZFHKKAAA/hzC3xz64ZwJEDPfpvW1RO3voZqxrjcaaJx4AAAA",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#222222",
+    "brightness": 0.3588454901960784
+  },
+  {
+    "id": "bw-europe-eurofilm2",
+    "src": "/photos/bw-europe-eurofilm2",
+    "location": "bw\\europe",
+    "width": 2197,
+    "height": 3296,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoUAB4APzmMu1QvKaYjMAgB4CcJaQAACCJ84jKQlRhqE/QAANQ4w0vmEO2lxt9br6PqxDvha9bFeCbGBnC2mxAAAAA=",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#434343",
+    "brightness": 0.4913505882352941
+  },
+  {
+    "id": "bw-europe-eurofilm3",
+    "src": "/photos/bw-europe-eurofilm3",
+    "location": "bw\\europe",
+    "width": 3355,
+    "height": 2237,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAACQAwCdASoUAA0APzmIvlOvKScisAgB4CcJaQAAXAQv24Yq+/ggAP5bKrmyTJt7mi8jmhT6gAA=",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#212121",
+    "brightness": 0.3938196078431373
+  },
+  {
+    "id": "bw-europe-eurofilm4",
+    "src": "/photos/bw-europe-eurofilm4",
+    "location": "bw\\europe",
+    "width": 2213,
+    "height": 3319,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoUAB4APx16sFO6qCSit+gDUCOJaQAAhpNFxFmOmG6glAAA/oueM6E7S55tXpnytNOnDHxNnF7osjp+plw5zyAA",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#1f1f1f",
+    "brightness": 0.4742180392156863
+  },
+  {
+    "id": "bw-europe-eurofilm5",
+    "src": "/photos/bw-europe-eurofilm5",
+    "location": "bw\\europe",
+    "width": 2203,
+    "height": 3305,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAwAwCdASoUAB4APzWAslOvKCQisAwB4CaJaQAAOwHNUgXgAPxZbzTTREkx01rn/W39lwd47YvZxu9Y5EmfgAAA",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#3b3b3b",
+    "brightness": 0.5023670588235294
+  },
+  {
+    "id": "bw-europe-eurofilm6",
+    "src": "/photos/bw-europe-eurofilm6",
+    "location": "bw\\europe",
+    "width": 2265,
+    "height": 3371,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABwAwCdASoUAB4APxl2r1Osp6QoN+gBkCMJaQAAudEe5EdG1FAA/ughOu+Ma4W/tzzjY0TVG1HP3pv5sTcXJAAA",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#262626",
+    "brightness": 0.6219074509803921
+  },
+  {
+    "id": "bw-nyc-bw1",
+    "src": "/photos/bw-nyc-bw1",
+    "location": "bw\\nyc",
+    "width": 2996,
+    "height": 1997,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0APzmKulOvKaWisAgB4CcJaQAAKmFwAP50f/mI7QlI2XS92ZB3DDChXcBsRhHAAAAA",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#323232",
+    "brightness": 0.20668549019607843
+  },
+  {
+    "id": "bw-nyc-bw10",
+    "src": "/photos/bw-nyc-bw10",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAA0APzmYvlYvLCajsAgB4CcJaQAAelYSJMAA/uNT9+LTP/PfGGWcjjbYZPgAAAA=",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#2e2e2e",
+    "brightness": 0.39805490196078436
+  },
+  {
+    "id": "bw-nyc-bw11",
+    "src": "/photos/bw-nyc-bw11",
+    "location": "bw\\nyc",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAAAwBACdASoUAB4APyWIt1OuKqWit/qoAcAkiWkAAFKyyWCrlyWddgKySAAA/tbwlcWffFbDfL4jODtPrFS4OjdL7Bw8p/NumMewJnvfUAA=",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#2a2a2a",
+    "brightness": 0.4467513725490196
+  },
+  {
+    "id": "bw-nyc-bw12",
+    "src": "/photos/bw-nyc-bw12",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAA0APzmIvlOvKScisAgB4CcJaQAAB4Ua5vQAAPce3f/Gf50TH7rKPqaZ55gAAAA=",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#232323",
+    "brightness": 0.5372878431372549
+  },
+  {
+    "id": "bw-nyc-bw2",
+    "src": "/photos/bw-nyc-bw2",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABwAwCdASoUAA0APzmKulQvKaWjMAgB4CcJaQAAUqkBazrwzzgA/tpyXinqi1QnupmpS4AA",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#2e2e2e",
+    "brightness": 0.21935686274509805
+  },
+  {
+    "id": "bw-nyc-bw3",
+    "src": "/photos/bw-nyc-bw3",
+    "location": "bw\\nyc",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwBACdASoUAB4APzmEvlavJ6ajsBgIAeAnCWkAABeXvX935WRrIUo4ctCnL88Z9GAA/ov9P4lL/8C9AMm5xWTpLFy+cdVUwJ/ZdY+AAAA=",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#474747",
+    "brightness": 0.5088470588235294
+  },
+  {
+    "id": "bw-nyc-bw4",
+    "src": "/photos/bw-nyc-bw4",
+    "location": "bw\\nyc",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAB4APx14sFOxp6SoN+gCMCOJaQAAY+u54RtoatbnEUFAAP6Cbr+JAfQ/LF+8Xv5hEJQzbrf5cwHS0dsAAA==",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#2a2a2a",
+    "brightness": 0.16867294117647058
+  },
+  {
+    "id": "bw-nyc-bw5",
+    "src": "/photos/bw-nyc-bw5",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1367,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAACwAgCdASoUAA0APzmEuVO+qKWisAgD0CcJaQAAeyAA/uzZSAskgSHbe4vHUt4AAAA=",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#252525",
+    "brightness": 0.16478901960784315
+  },
+  {
+    "id": "bw-nyc-bw6",
+    "src": "/photos/bw-nyc-bw6",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAwAwCdASoUAA0APzmGulQvKSWjMAgB4CcJaQAASkWG8l4AAPuAxGKlXS8u7bS/7gi73ZcXl2AAAA==",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#1f1f1f",
+    "brightness": 0.7716439215686275
+  },
+  {
+    "id": "bw-nyc-bw7",
+    "src": "/photos/bw-nyc-bw7",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAAAQAwCdASoUAA0ALvmczmclLy8vDwD4S0gABc72soO+8egA/u6SBsijAE/m/wlVVgaAAA==",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#242424",
+    "brightness": 0.18004549019607843
+  },
+  {
+    "id": "bw-nyc-bw8",
+    "src": "/photos/bw-nyc-bw8",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA0APzmEuVOvKKWisAgB4CcJaQAARn0RPjkRxnAA/svUOgNr5SGvOPqewHDRrMjAAA==",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#282828",
+    "brightness": 0.3852345098039216
+  },
+  {
+    "id": "bw-nyc-bw9",
+    "src": "/photos/bw-nyc-bw9",
+    "location": "bw\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAwCdASoUAA0APzmQvlWvKqajMAgB4CcJaQAARcfeJIAA/tOVNjD+7vHC408v1f93Ef/ExK09/CYtTtZAAAAA",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#373737",
+    "brightness": 0.6463529411764706
+  },
+  {
+    "id": "color-pnw-pnw1",
+    "src": "/photos/color-pnw-pnw1",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoUAB4APy2EuVOuqSYisAwB0CWJZgC06AOeWrj9MXySl/Q6FQAA6T8ooPIcvPRdiuX5MOYA6/Ord8bdQCxTQZNaVnPsoCfX9faWX9HF6gCAnH7R/JfiAAAA",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#086797",
+    "brightness": 0.4104993098039191
+  },
+  {
+    "id": "color-pnw-pnw10",
+    "src": "/photos/color-pnw-pnw10",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwBACdASoUAB4APzmEuFQvKCUjMBgMAeAnCUAXYAaarBFDkr4U46i8Z5AA/lZB3Nc55JYBllos7gq4zFG5JI2mLGvRDPOX+/VoQAAA",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#385a3a",
+    "brightness": 0.39366874039215594
+  },
+  {
+    "id": "color-pnw-pnw11",
+    "src": "/photos/color-pnw-pnw11",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQBACdASoUAB4APzmMulWvKaWjMBgIAeAnCWMAxvQyhWROH7EA/gmL8R/5aoAAy/MpJjm9nlnFlkDCFYkDZXC5JODbiMIresChNqixkbNxJl+xYAAAAA==",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#86b4b8",
+    "brightness": 0.4819093411764691
+  },
+  {
+    "id": "color-pnw-pnw2",
+    "src": "/photos/color-pnw-pnw2",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAADwAwCdASoUAB4APyWAslOuKKSit/qoAcAkiUAZGoFTcuYvFlOkmBfIAJP2W0IumM1ndxAw0O4isPipryE3AMjYRJH7q4/Zbn6KZpcAgwAAAA==",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#7d9376",
+    "brightness": 0.28898200627451753
+  },
+  {
+    "id": "color-pnw-pnw3",
+    "src": "/photos/color-pnw-pnw3",
+    "location": "color\\pnw",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAwCdASoUAA0APzmGulQvKSWjMAgB4CcJQBOgBtGr4StAAP5LkGOa3/rz1rl1KNnx64WIAAyIWZvqAAA=",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#13a89d",
+    "brightness": 0.44827454431372554
+  },
+  {
+    "id": "color-pnw-pnw4",
+    "src": "/photos/color-pnw-pnw4",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwBACdASoUAB4APxl0rlOspyQit+gBkCMJZQDGBDHNJDCwi6nM0z3gWlAA/tMmpBG4APzA0eizDiSURub3zAqeZchfJ6PLJ2AAAA==",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#271c18",
+    "brightness": 0.4415609929411707
+  },
+  {
+    "id": "color-pnw-pnw5",
+    "src": "/photos/color-pnw-pnw5",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACwBACdASoUAB4APzWAt1OvJ6Uit/VYAeAmiUAYmwinzuT16KXOYzWRAMfBaEfMAPiKOIkmEOk7xgLq23c7DgBNZLKriuEu4Tp0tqD8g0TEAA==",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#b1ab7b",
+    "brightness": 0.45385367686274525
+  },
+  {
+    "id": "color-pnw-pnw6",
+    "src": "/photos/color-pnw-pnw6",
+    "location": "color\\pnw",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA0ALvmczmclLy8vDwD4SzgGWWIUOymXIvYAugAA/ZYkUZpGo6O+pwsa/tnmVRwAAA==",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#40332b",
+    "brightness": 0.4035496596078437
+  },
+  {
+    "id": "color-pnw-pnw7",
+    "src": "/photos/color-pnw-pnw7",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAB4APzmQwFcvKacjqAqp4CcJZwDE2GIhM1GLcYodAADch9TG2QGxWO5DwXOjcb5XesRbLLR12o/c4tkU485CLpBAmqb5wAA=",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#2d4932",
+    "brightness": 0.4100139921568645
+  },
+  {
+    "id": "color-pnw-pnw8",
+    "src": "/photos/color-pnw-pnw8",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAABQAwCdASoUAB4APzl+u1O/p7oisBgMA/AnCWMAtsgVolzUAAD+49vnfRZcYeh14oGXZb6K4sasfL5SC7007Qd8ddrVwgBe9T3IAA==",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#76aec9",
+    "brightness": 0.6948068784313663
+  },
+  {
+    "id": "color-pnw-pnw9",
+    "src": "/photos/color-pnw-pnw9",
+    "location": "color\\pnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAABwBACdASoUAB4APzmGvlYvKCatsBgIAeAnCWIAnTKABPX0an5lmeQtPJiIAAD+VHdk7XxXGFiJb3h/Papk+xYDsYOw0xfwokEPodvjFV5DOZX2Aj+UCR6mrqzeuEAA",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#5e9dcb",
+    "brightness": 0.6114066541176554
+  },
+  {
+    "id": "color-vietnam-namfilm1",
+    "src": "/photos/color-vietnam-namfilm1",
+    "location": "color\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAgCdASoUAA0APzmGulQvKSWxMAgCICcJQBOgBaSAAP7piljXrVMyTQl5bVuoZ2R4h+BpZy76AAAA",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#901a2f",
+    "brightness": 0.2241894682352942
+  },
+  {
+    "id": "color-vietnam-namfilm10",
+    "src": "/photos/color-vietnam-namfilm10",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAB4APzF+tFOuqCUisAwB0CYJZQDA3CFNF8zhBSmNv4AA/rlt96uG2sPPD0uMxW8CS4jJ4QlXBh9DmMmwFU2zS8j4AA==",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#252e37",
+    "brightness": 0.2462953317647053
+  },
+  {
+    "id": "color-vietnam-namfilm11",
+    "src": "/photos/color-vietnam-namfilm11",
+    "location": "color\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAABwAwCdASoUAA0APzmIulQvKSWjMAgB4CcJQBfnA9DFlxitDMAAyedkA4o9J7xnTZzyfEW31WYSCT8QAAA=",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#84382b",
+    "brightness": 0.36582501176470916
+  },
+  {
+    "id": "color-vietnam-namfilm2",
+    "src": "/photos/color-vietnam-namfilm2",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwAwCdASoUAB4APzV+t1OvJ6UsN/VYAeAmiUAW9wLOa2SAAP6/SwN5GvPy4PIYMpusMkczLg6Lp8TFRCR2Dn+xkH4x0BPnBMLBloAA",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#284760",
+    "brightness": 0.3137176972549019
+  },
+  {
+    "id": "color-vietnam-namfilm3",
+    "src": "/photos/color-vietnam-namfilm3",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwBACdASoUAB4APzmEu1avJ6WjsBgIAeAnCWcAvdAQ60cO5R9URdG7tRAA/q8NOPCoLYuiPbvyPJodFWZghSKpCGVS+2pKAicWb8f6QUMAAA==",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#5b4238",
+    "brightness": 0.23460550901961
+  },
+  {
+    "id": "color-vietnam-namfilm4",
+    "src": "/photos/color-vietnam-namfilm4",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUAB4APy2AuFOuqKWisAwB0CWJZwDE2CHZh0zH8D3F2SuNgAD+Vp4CTu+QhJQIXl+Yn4d0p7+TTgtjh6eN5XQBUYAAAA==",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#44302e",
+    "brightness": 0.2420514886274494
+  },
+  {
+    "id": "color-vietnam-namfilm5",
+    "src": "/photos/color-vietnam-namfilm5",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwBACdASoUAB4APzGCtVOuqKUit/VYAdAmCWUAvdARBPCUDcylP+JjnULP6J4kUAAA/o74WwsiuSyFtFvKIWajL3ZfgHCsVTHZ1jQhT2BCAAAA",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#694d3e",
+    "brightness": 0.23504425882352487
+  },
+  {
+    "id": "color-vietnam-namfilm6",
+    "src": "/photos/color-vietnam-namfilm6",
+    "location": "color\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA0APzmIulQvKSWjMAgB4CcJZQDE2B5vC02Pn9gA/RzmV9hV2ko6nubZuwZ7egAAAA==",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#61341e",
+    "brightness": 0.22320992627451003
+  },
+  {
+    "id": "color-vietnam-namfilm7",
+    "src": "/photos/color-vietnam-namfilm7",
+    "location": "color\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAwCdASoUAA0APzmGulOvKSWisAgB4CcJYgCw7CHw1FDm1BGH2gAA+i5COPbHDshXO35eolFYMpl6e/8hQkAA",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#a74c3d",
+    "brightness": 0.2474813772549015
+  },
+  {
+    "id": "color-vietnam-namfilm8",
+    "src": "/photos/color-vietnam-namfilm8",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABwBACdASoUAB4APyWCslOuKSSit/qoAcAkiWMAyRAwnvHlCyZF0sLp0ZkOmAD+6/r0Z8nfvifB4CJ/mGKMEzk0R9sLzl8yGMSAfHWHIAA=",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#888229",
+    "brightness": 0.2581116690196073
+  },
+  {
+    "id": "color-vietnam-namfilm9",
+    "src": "/photos/color-vietnam-namfilm9",
+    "location": "color\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoUAB4APx14sFOtJ6Sit+gBoCOJZQDO7EjRJBaZeMMAAP7swzHDddPnpnGa93iZ3WWUMDgSAdTCXi1IiMRjBPFVCpOaWAAA",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "Canon AE-1",
+      "focalLength": null,
+      "aperture": null,
+      "iso": null,
+      "shutter": null
+    },
+    "color": "#152a2e",
+    "brightness": 0.24297684705882347
+  },
+  {
+    "id": "digi-centeur-buda1",
+    "src": "/photos/digi-centeur-buda1",
+    "location": "digi\\centeur",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACQAwCdASoUAA0APzmEuVOvKKWisAgB4CcJYgCdABdTn5emvwwAAP4UVQOdUG6s7MAtg8F8qe320i7nebZPnOyAAAA=",
+    "exif": {
+      "date": "2024-06-06",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5.6,
+      "iso": 160,
+      "shutter": "1/500"
+    },
+    "color": "#026db0",
+    "brightness": 0.6043575121568567
+  },
+  {
+    "id": "digi-centeur-buda2",
+    "src": "/photos/digi-centeur-buda2",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoUAB4APzmIuFQvKTIjMBgMAkAnCUAXYAAhXOhzAfMmAAD28UHvrbEjaYwqfybBYrmALzm4sKNBvHRTIJIA8E/9pPf5n5wlTqupOtL0JrwAAA==",
+    "exif": {
+      "date": "2024-06-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 9,
+      "iso": 160,
+      "shutter": "1/400"
+    },
+    "color": "#433a32",
+    "brightness": 0.5172759231372529
+  },
+  {
+    "id": "digi-centeur-buda3",
+    "src": "/photos/digi-centeur-buda3",
+    "location": "digi\\centeur",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA0APzmGu1QvKSYjMAgB4CcJYwC06B7HUhXdtugQAP4Ur/5v+7/BHzqN025pDDWxK0YAAAA=",
+    "exif": {
+      "date": "2024-06-07",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 320,
+      "shutter": "1/200"
+    },
+    "color": "#343e12",
+    "brightness": 0.3085989066666661
+  },
+  {
+    "id": "digi-centeur-germany1",
+    "src": "/photos/digi-centeur-germany1",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQBACdASoUAB4APzF8uFOupyWit/VYAdAmCWkAALynem/S6uDuuz1KQADgDpm/lGGYAA0YkEk3gLYYLiwYQ/3UBT2UAINoQAA=",
+    "exif": {
+      "date": "2024-05-22",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 7.1,
+      "iso": 200,
+      "shutter": "1/200"
+    },
+    "color": "#191d25",
+    "brightness": 0.1378172392156866
+  },
+  {
+    "id": "digi-centeur-germany10",
+    "src": "/photos/digi-centeur-germany10",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABQBACdASoUAB4APzl8ulOvJyWit/VYAeAnCWUAAC1L85Fj/47jOougVGUAAP7eznwjus75yI8REH6YSxjtevKI0fpfwVBk0Mb1xHUJ2oAAAA==",
+    "exif": {
+      "date": "2024-05-21",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5.6,
+      "iso": 200,
+      "shutter": "1/800"
+    },
+    "color": "#2c3025",
+    "brightness": 0.4506374650980416
+  },
+  {
+    "id": "digi-centeur-germany11",
+    "src": "/photos/digi-centeur-germany11",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAB4APy2CuFOuqSWisAwB0CWJQBYdgSwgvyVe2+QIAP5vTxnTSy2mj+SarSaPKBKVab32gWeiwf56cjbwXzyr11oJ/g5UAAA=",
+    "exif": {
+      "date": "2024-05-22",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 640,
+      "shutter": "1/320"
+    },
+    "color": "#a46625",
+    "brightness": 0.27012666980392575
+  },
+  {
+    "id": "digi-centeur-germany2",
+    "src": "/photos/digi-centeur-germany2",
+    "location": "digi\\centeur",
+    "width": 2048,
+    "height": 1152,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAAsAPzmGulQ/qSWjMAgD8CcJZQC7AC0Hml8AAP7s1U5IXF9x3y1gLWObetGAAAA=",
+    "exif": {
+      "date": "2024-05-22",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 320,
+      "shutter": "1/200"
+    },
+    "color": "#7e641f",
+    "brightness": 0.20152653960784353
+  },
+  {
+    "id": "digi-centeur-germany3",
+    "src": "/photos/digi-centeur-germany3",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwBACdASoUAB4APzmUwVkvKicjqAgB4CcJZwAA7OaPlmXCTpRLdP9CDq9zSXhgAP72AspfE9R7yXlRkVJ5qLq/0EtritvC2gZDhhVbh55LwAAA",
+    "exif": {
+      "date": "2024-05-24",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 400,
+      "shutter": "1/320"
+    },
+    "color": "#343128",
+    "brightness": 0.5421092580392195
+  },
+  {
+    "id": "digi-centeur-germany4",
+    "src": "/photos/digi-centeur-germany4",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAB4APx18sVO/qCSit+gD8COJZQDI1EU1y/fz0487AAD+663CrjRxsHXKNIS3t+nY/+HEqJnev2/AAAA=",
+    "exif": {
+      "date": "2024-05-24",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5.6,
+      "iso": 160,
+      "shutter": "1/160"
+    },
+    "color": "#2b3305",
+    "brightness": 0.25917689882352973
+  },
+  {
+    "id": "digi-centeur-germany6",
+    "src": "/photos/digi-centeur-germany6",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADQAwCdASoUAB4APyV2slOuJySit/qoAcAkiWcAzcAQNZncwSYJz8AA/p3GCWl8RRq4162mjkNRAYJPYjui/+5IwCQR2Nkv6up/c23IUmK2oAAA",
+    "exif": {
+      "date": "2024-05-24",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 1250,
+      "shutter": "1/160"
+    },
+    "color": "#302319",
+    "brightness": 0.4056808298039212
+  },
+  {
+    "id": "digi-centeur-germany7",
+    "src": "/photos/digi-centeur-germany7",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAAAwBACdASoUAB4APzGGuFOuqaWisBgMAdAmCWkAADFlxxfkc5dPlGX6v4AA/tP3xvtkoviT+MBPw2hV51+n4Ziz9j+S4eWZ2xHDE4AA",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 250,
+      "shutter": "1/250"
+    },
+    "color": "#514d45",
+    "brightness": 0.5069983952941127
+  },
+  {
+    "id": "digi-centeur-germany8",
+    "src": "/photos/digi-centeur-germany8",
+    "location": "digi\\centeur",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAA0APzmEuVOvKKWisAgB4CcJZgAAelXzeIAA/tI3l1tvDkgmA2ZuC6i0shDA8AA=",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 100,
+      "shutter": "1/250"
+    },
+    "color": "#5d690d",
+    "brightness": 0.3977237694117643
+  },
+  {
+    "id": "digi-centeur-germany9",
+    "src": "/photos/digi-centeur-germany9",
+    "location": "digi\\centeur",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABwAwCdASoUAA0APzmKulOvKaWisAgB4CcJQBibBDrpsY6PKiAA/G08CHYSJ87E4XHeUkiVtKeRZ35YGAAAAA==",
+    "exif": {
+      "date": "2024-05-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 125,
+      "shutter": "1/250"
+    },
+    "color": "#575b14",
+    "brightness": 0.41492723137254706
+  },
+  {
+    "id": "digi-centeur-prague1",
+    "src": "/photos/digi-centeur-prague1",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAB4APx14sFOtJ6Sit+gBoCOJZwAAZMuilmoVLk3I4CQAAP7jTYoGNaIF97YlxXJGhqf9a6sNe/F5iPRmjxEj6NeMsKm9/fSAAAAA",
+    "exif": {
+      "date": "2024-05-31",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 800,
+      "shutter": "1/200"
+    },
+    "color": "#675f50",
+    "brightness": 0.5420012329411802
+  },
+  {
+    "id": "digi-centeur-prague2",
+    "src": "/photos/digi-centeur-prague2",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAABwBACdASoUAB4APyGCs1OtKaSit/qoAaAkCWMAvkgLrd2Jnx8/WWEwnyYAAADCzXC74yu0CUxHR561kgUrhzgnigkG7AailgY49DOI+GUaAAAA",
+    "exif": {
+      "date": "2024-05-30",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 320,
+      "shutter": "1/400"
+    },
+    "color": "#46372b",
+    "brightness": 0.33718918117647284
+  },
+  {
+    "id": "digi-centeur-prague3",
+    "src": "/photos/digi-centeur-prague3",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAACQBACdASoUAB4APzmIvlavKKajsBgIAeAnCUAVw4IdyoCIg5okL+YW9nZgTgAA/qIxdwNaYzjsBn02UF8UFC4DY19WVYrQ4KEf7MMlA+eOkDDbf2TJbEgZghRL8RoWAAA=",
+    "exif": {
+      "date": "2024-05-28",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 250,
+      "shutter": "1/500"
+    },
+    "color": "#3c2609",
+    "brightness": 0.3951000360784326
+  },
+  {
+    "id": "digi-centeur-vienna1",
+    "src": "/photos/digi-centeur-vienna1",
+    "location": "digi\\centeur",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQBACdASoUAB4APzmUvlkvKiYjqAqp4CcJZQC2FA1VyieEjjocAkFHUgtu9YAA/o6qwi/Ay9Rz3NrBghXxpIzCEuZQnXP8V8QZlgceU0AAAA==",
+    "exif": {
+      "date": "2024-06-02",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 640,
+      "shutter": "1/250"
+    },
+    "color": "#2a1e15",
+    "brightness": 0.42028933960784404
+  },
+  {
+    "id": "digi-climbing-climbing1",
+    "src": "/photos/digi-climbing-climbing1",
+    "location": "digi\\climbing",
+    "width": 5781,
+    "height": 3854,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoUAA0APzmGulO/qSWisAgD8CcJZgCdMoMulGHTDGp20AD+4h/GDDjuFmdwDr1JfsmFmsCChZgpVML5cAA=",
+    "exif": {
+      "date": "2025-02-24",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 125,
+      "shutter": "1/800"
+    },
+    "color": "#0385b1",
+    "brightness": 0.36608792627451014
+  },
+  {
+    "id": "digi-climbing-climbing2",
+    "src": "/photos/digi-climbing-climbing2",
+    "location": "digi\\climbing",
+    "width": 5133,
+    "height": 3422,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADwAgCdASoUAA0APzmGvFQvKSYjMAgB4CcJZwAAiTiUAAD+61nv5CYPp2JlBn429zgMByv08wikdgAA",
+    "exif": {
+      "date": "2025-02-27",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 2500,
+      "shutter": "1/1000"
+    },
+    "color": "#5c6676",
+    "brightness": 0.21928021490196067
+  },
+  {
+    "id": "digi-climbing-climbing3",
+    "src": "/photos/digi-climbing-climbing3",
+    "location": "digi\\climbing",
+    "width": 5698,
+    "height": 3799,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAA0APzmGuVOvKSWisAgB4CcJZQC7ACHKTYTJAAD+b3Q6qkK1i27O/+BjMEKUF9vAAA==",
+    "exif": {
+      "date": "2025-03-01",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 2000,
+      "shutter": "1/800"
+    },
+    "color": "#2a5b77",
+    "brightness": 0.23231589019607934
+  },
+  {
+    "id": "digi-climbing-climbing4",
+    "src": "/photos/digi-climbing-climbing4",
+    "location": "digi\\climbing",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAA0APzmGulQ0qSWjMAgCkCcJZQC06C0HdRAAAP7eVFY8ayaxMvq3dK4VzDQRQAA=",
+    "exif": {
+      "date": "2025-04-17",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 320,
+      "shutter": "1/500"
+    },
+    "color": "#543d34",
+    "brightness": 0.36578603137254956
+  },
+  {
+    "id": "digi-climbing-climbing5",
+    "src": "/photos/digi-climbing-climbing5",
+    "location": "digi\\climbing",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwBACdASoUAB4APzmIuVOvKSW4sAgDECcJYwCvDBos78MWETRJJOkmiQUE2JWAAP3eKCqNn9X4frYVO++tjBcCxqnGdEOjRC1w8LEugAA=",
+    "exif": {
+      "date": "2025-04-18",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 250,
+      "shutter": "1/500"
+    },
+    "color": "#653b25",
+    "brightness": 0.33628030274509746
+  },
+  {
+    "id": "digi-climbing-climbing6",
+    "src": "/photos/digi-climbing-climbing6",
+    "location": "digi\\climbing",
+    "width": 3834,
+    "height": 5751,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAACwAwCdASoUAB4APzmQvlgvKaYjqAqp4CcJQBdgAKbhxeBSaC9QAADUhkbbMTfbm67DCJB7ewiz3YYszm6LeJwm1IyuOxQQIf4+2tALc5hL1AAA",
+    "exif": {
+      "date": "2025-07-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 3200,
+      "shutter": "1/250"
+    },
+    "color": "#525129",
+    "brightness": 0.4017828062745087
+  },
+  {
+    "id": "digi-climbing-climbing7",
+    "src": "/photos/digi-climbing-climbing7",
+    "location": "digi\\climbing",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUAB4APzmOulY0saWpMBgIApAnCWcAzFgWxdCAAAD+7VkQONSJg6DAWacU8ewLMoRrAAAA",
+    "exif": {
+      "date": "2025-05-11",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 5000,
+      "shutter": "1/320"
+    },
+    "color": "#222d39",
+    "brightness": 0.11856240941176474
+  },
+  {
+    "id": "digi-climbing-climbing8",
+    "src": "/photos/digi-climbing-climbing8",
+    "location": "digi\\climbing",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADQAwCdASoUAB4APyl4tFOuJyUit/qoAcAlCWcAz2QsdNb1fbNWeYAA/t/4RKn5BrOQwtbIDToIBfOJlLzGcAnxR70PmE/4u//wAA==",
+    "exif": {
+      "date": "2025-05-15",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 640,
+      "shutter": "1/500"
+    },
+    "color": "#4d5560",
+    "brightness": 0.3588790243137251
+  },
+  {
+    "id": "digi-italy-italy1",
+    "src": "/photos/digi-italy-italy1",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACwAwCdASoUAB4APzmOu1YvOqWjsBgIA1AnCUAXYAG5nT7DPZdKAAD+40F6KafJTPH9fkIDd81oG4BN1oBUt+a1rg/WQ437GGTaHoCQAAA=",
+    "exif": {
+      "date": "2024-06-10",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 9,
+      "iso": 320,
+      "shutter": "1/320"
+    },
+    "color": "#3a220e",
+    "brightness": 0.12159722980392097
+  },
+  {
+    "id": "digi-italy-italy10",
+    "src": "/photos/digi-italy-italy10",
+    "location": "digi\\italy",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAAAwAwCdASoUAA0APzmGu1OvKSYisAgB4CcJZACdABPKNQYAAMK2aubb9eVxa7sO41N3kyfIUuDxj8SLnMm0nyvhgAA=",
+    "exif": {
+      "date": "2024-05-09",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 100,
+      "shutter": "1/320"
+    },
+    "color": "#4f91c2",
+    "brightness": 0.47491568000000267
+  },
+  {
+    "id": "digi-italy-italy11",
+    "src": "/photos/digi-italy-italy11",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAABQBACdASoUAB4APzGEslOuqKQisAwB0CYJZACsMyGBLKFDfhwn+Bysxy8AAK5SHrZ5FBAbx5P1oUZmG88bYeoXz8bFzvO1Iv/Qu1Uu3IRAfsQc5JJrNL3T3LPoAA==",
+    "exif": {
+      "date": "2024-05-09",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 160,
+      "shutter": "1/400"
+    },
+    "color": "#5e2e02",
+    "brightness": 0.39172363607843147
+  },
+  {
+    "id": "digi-italy-italy12",
+    "src": "/photos/digi-italy-italy12",
+    "location": "digi\\italy",
+    "width": 4000,
+    "height": 6000,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoUAB4APzmCt1OvKCUisBgMAeAnCWMApxQPMhLlEJ8bwFs0AAD8XJO7oV2Ia0K30aH94U5u43h1H65hIqbdNj4QoYl5hKj5ZGxnhHgA",
+    "exif": {
+      "date": "2024-05-09",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 125,
+      "shutter": "1/400"
+    },
+    "color": "#766442",
+    "brightness": 0.39690399999999854
+  },
+  {
+    "id": "digi-italy-italy13",
+    "src": "/photos/digi-italy-italy13",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABwBACdASoUAB4APx12r1OtJyQit+gBoCOJaQDO7DIoCbQbYpv9HtTsoXQRAAD+uW2xc4Hq17fT0rW9RusDyxDEX1tWwAAA",
+    "exif": {
+      "date": "2024-05-10",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5.6,
+      "iso": 200,
+      "shutter": "1/400"
+    },
+    "color": "#69594c",
+    "brightness": 0.29565789176470375
+  },
+  {
+    "id": "digi-italy-italy14",
+    "src": "/photos/digi-italy-italy14",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAB4APyV+s1OuNaSwt/qoArAkiWUAxkARB/RlL7OQAOyWus97oY35PgV2eE1+ribel7CsTr+KulgTh67DGAAA",
+    "exif": {
+      "date": "2024-05-11",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 320,
+      "shutter": "1/250"
+    },
+    "color": "#e6b590",
+    "brightness": 0.26765213176470365
+  },
+  {
+    "id": "digi-italy-italy15",
+    "src": "/photos/digi-italy-italy15",
+    "location": "digi\\italy",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAwAwCdASoUAA0APzmGu1OvKSYisAgB4CcJQBdgBaDzi37IAP7rrdVa5as7eXogwEOt5mkGKqh81j64wKAAAA==",
+    "exif": {
+      "date": "2024-06-10",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 125,
+      "shutter": "1/100"
+    },
+    "color": "#9b472e",
+    "brightness": 0.22730282823529296
+  },
+  {
+    "id": "digi-italy-italy16",
+    "src": "/photos/digi-italy-italy16",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAwCdASoUAB4APzmEu1OvKKaisBgMAeAnCWMAuwANP3vn/4bYy6wAAPxU8d09QMRAjV7mg8sIWk9byDW9v84pNN6OJnydmemCEH41mBsZ9ud78+9fcCKYO5tKQAAA",
+    "exif": {
+      "date": "2024-05-13",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 400,
+      "shutter": "1/250"
+    },
+    "color": "#522d1b",
+    "brightness": 0.5596339325490233
+  },
+  {
+    "id": "digi-italy-italy17",
+    "src": "/photos/digi-italy-italy17",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQBACdASoUAB4APx18sVOtKCSit+gBoCOJZwAAbwXkTh2c1cVtnFsnAAD+50CFUkUe8Ib55M+U14ZS2F7HYxRzXxVipcHQaDgAAA==",
+    "exif": {
+      "date": "2024-05-15",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 250,
+      "shutter": "1/320"
+    },
+    "color": "#4e4339",
+    "brightness": 0.3838316800000003
+  },
+  {
+    "id": "digi-italy-italy18",
+    "src": "/photos/digi-italy-italy18",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAADQBACdASoUAB4APzmGuVOvKSWisBgMAeAnCUAAA7j4edWZnbqGuu1DQ8vJGNo48AD+XnM0IFx8yka/ZPmhd1/7LpFMjs0N9GmQnGunFxLJQUcbAw/4LFvOYAAAAA==",
+    "exif": {
+      "date": "2024-06-08",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 16,
+      "iso": 160,
+      "shutter": "1/2"
+    },
+    "color": "#86021b",
+    "brightness": 0.37387591058823205
+  },
+  {
+    "id": "digi-italy-italy19",
+    "src": "/photos/digi-italy-italy19",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwBACdASoUAB4APzmSvlgvKiYlKAqp4CcJZwCtaA3x5r9KAgmV0GPYUcZEE1EAAP6oQo4GuvmfiHp1ztPvi59Q/Vg2Xz80vWTdF0AA",
+    "exif": {
+      "date": "2024-06-08",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 250,
+      "shutter": "1/320"
+    },
+    "color": "#302a15",
+    "brightness": 0.28421440156862593
+  },
+  {
+    "id": "digi-italy-italy2",
+    "src": "/photos/digi-italy-italy2",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwBACdASoUAB4APzmMu1SvKaYjMAgB4CcJQBfnBDUfRRdwbreQ1ix+mpYA/fQ+f/L4ZerZVnrUFN52tUjFZayFmyGel0Z68ugE65JFV3dL7ehmAAA=",
+    "exif": {
+      "date": "2024-04-24",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.2,
+      "iso": 100,
+      "shutter": "1/250"
+    },
+    "color": "#583d21",
+    "brightness": 0.31475045803921586
+  },
+  {
+    "id": "digi-italy-italy20",
+    "src": "/photos/digi-italy-italy20",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwBACdASoUAB4APx14r1O/p6Qit+gD8COJYwCnFFH51dY2QVteZwikQAAA/nxurtXQ9Ue9C2WSZtGioKUYSqCFfDMwUKoH9rUEN2WvxOe+AA==",
+    "exif": {
+      "date": "2024-06-08",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 400,
+      "shutter": "1/320"
+    },
+    "color": "#9a5334",
+    "brightness": 0.38601926588234825
+  },
+  {
+    "id": "digi-italy-italy21",
+    "src": "/photos/digi-italy-italy21",
+    "location": "digi\\italy",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAADQAwCdASoUAA0APzmEuVOvKKWisAgB4CcJYgC7AB49CR5/wEbbwAAA7XqGgMKSn8rtwSI5p+klfzhnQuVAAA==",
+    "exif": {
+      "date": "2024-06-08",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 640,
+      "shutter": "1/320"
+    },
+    "color": "#49580b",
+    "brightness": 0.4544450917647046
+  },
+  {
+    "id": "digi-italy-italy22",
+    "src": "/photos/digi-italy-italy22",
+    "location": "digi\\italy",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoUAA0APzmGulQvKSWjMAgB4CcJYwCdMoAEagAA/u0gW5Drnx2suIWfxLr6rIdhCOfVY6zAAAA=",
+    "exif": {
+      "date": "2024-06-10",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 160,
+      "shutter": "1/4"
+    },
+    "color": "#7e3b0a",
+    "brightness": 0.16211013647058722
+  },
+  {
+    "id": "digi-italy-italy3",
+    "src": "/photos/digi-italy-italy3",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwBACdASoUAB4APyWAtFOuKKUit/qoAcAkiWUAxvQiC1apAcsd2WtNd6ooAAD+f7Oytsi7TiLoQTLn9oOjefQUcmh8HtjtQukchakbpYQiSrik4AA=",
+    "exif": {
+      "date": "2024-04-24",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.2,
+      "iso": 1250,
+      "shutter": "1/250"
+    },
+    "color": "#71543e",
+    "brightness": 0.3554777113725516
+  },
+  {
+    "id": "digi-italy-italy4",
+    "src": "/photos/digi-italy-italy4",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABQBACdASoUAB4APzmOwFcvKacjqAqp4CcJYwDG9BCUt4bk1OfDReOyZEjsAPq7ys0hl1G6rk/LdqG7X0HQ2NEI2VwOBjQT36wLiHhwgH5EcmWvMMcAAA==",
+    "exif": {
+      "date": "2024-04-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4,
+      "iso": 320,
+      "shutter": "1/640"
+    },
+    "color": "#b5904b",
+    "brightness": 0.43127741647058865
+  },
+  {
+    "id": "digi-italy-italy5",
+    "src": "/photos/digi-italy-italy5",
+    "location": "digi\\italy",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACwAwCdASoUAA0APzmKu1SvKaYjMAgB4CcJYwCdABXz7IuHeA6KAADKd+1Qpx6qFolbKDMVPcOZIMPRzAA=",
+    "exif": {
+      "date": "2024-04-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4,
+      "iso": 400,
+      "shutter": "1/640"
+    },
+    "color": "#875b10",
+    "brightness": 0.35136558745098223
+  },
+  {
+    "id": "digi-italy-italy6",
+    "src": "/photos/digi-italy-italy6",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoUAB4APyV+slOuKKSit/qoAcAkiWUAyFwP28t+7TCLRwoAAP655X4ocxZLqkxch0ORKzfPBYIUlCzf/jWxjewvhj5nh92MrbT0AAAA",
+    "exif": {
+      "date": "2024-04-26",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 1600,
+      "shutter": "1/200"
+    },
+    "color": "#7b5736",
+    "brightness": 0.2866743137254907
+  },
+  {
+    "id": "digi-italy-italy7",
+    "src": "/photos/digi-italy-italy7",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADwAwCdASoUAB4APzmKtFQvKaSosBgMAeAnCWcAACGeBkOC6XAR94NAAP7jRPeu7dewXTxs+7F5BxiDsJSRumyIOIAAAA==",
+    "exif": {
+      "date": "2024-05-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5.6,
+      "iso": 400,
+      "shutter": "1/250"
+    },
+    "color": "#29251a",
+    "brightness": 0.1315138447058822
+  },
+  {
+    "id": "digi-italy-italy8",
+    "src": "/photos/digi-italy-italy8",
+    "location": "digi\\italy",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAB4APyV8s1OuJ6Sit/qoAcAkiWUAv+wYrcF4VANacCWa6AD90Ou6JGApKPirIX4GKkNwNZPqz8BdMws71rfEdaNXJ3UJEPa+yS6AAAA=",
+    "exif": {
+      "date": "2024-05-06",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 125,
+      "shutter": "1/320"
+    },
+    "color": "#3d401f",
+    "brightness": 0.36911829647058686
+  },
+  {
+    "id": "digi-italy-italy9",
+    "src": "/photos/digi-italy-italy9",
+    "location": "digi\\italy",
+    "width": 3200,
+    "height": 4800,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAwCdASoUAB4APzmGtVQvKKSjMBgMAeAnCU0OCmgCYs3aH8yMvdUAAP0yPq5XU4z2Mb3FGUDzfwKpZCFwzK2MfrOpDlRPrRxn7M3YJ2QhQjZqpAw+mQAA",
+    "exif": {
+      "date": "2024-05-07",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 250,
+      "shutter": "1/1250"
+    },
+    "color": "#a33e45",
+    "brightness": 0.32368037333333205
+  },
+  {
+    "id": "digi-japan-japan1",
+    "src": "/photos/digi-japan-japan1",
+    "location": "digi\\japan",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQAwCdASoUAB4APzmOvVg0qaaqKAqqkCcJZACdM1XCOsOpQAD+7WYr+g0wlzWtinRqA6hetS+Wb4p5RnVhu5jWaa7NbrAA",
+    "exif": {
+      "date": "2024-09-13",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 160,
+      "shutter": "1/40"
+    },
+    "color": "#7e0b01",
+    "brightness": 0.11457450666666713
+  },
+  {
+    "id": "digi-japan-japan10",
+    "src": "/photos/digi-japan-japan10",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACwAQCdASoUAA0ABUB8JaQAA7wUSFhAAP7vOB73AzMR09nInzwfIwAA",
+    "exif": {
+      "date": "2024-11-30",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 5000,
+      "shutter": "1/100"
+    },
+    "color": "#3a3a3a",
+    "brightness": 0.1437741176470588
+  },
+  {
+    "id": "digi-japan-japan11",
+    "src": "/photos/digi-japan-japan11",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABwAwCdASoUAA0APzmGulQvKSWjMAgB4CcJQBOgA3SJQj+rJowA/tlYNdeIpv85qzCysmfYrkIAAA==",
+    "exif": {
+      "date": "2024-12-07",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 125,
+      "shutter": "1/200"
+    },
+    "color": "#683411",
+    "brightness": 0.2505241709803945
+  },
+  {
+    "id": "digi-japan-japan12",
+    "src": "/photos/digi-japan-japan12",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1536,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAADwAwCdASoUAA8APzmMvlUvKaajMAgB4CcJZQDKACHhgR70f3YfMcAAAP7o2Nc1nOSi521CoQAAAA==",
+    "exif": {
+      "date": "2024-12-21",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.2,
+      "iso": 200,
+      "shutter": "1/100"
+    },
+    "color": "#312a16",
+    "brightness": 0.15837485490196165
+  },
+  {
+    "id": "digi-japan-japan2",
+    "src": "/photos/digi-japan-japan2",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADwAgCdASoUAA0APzmGulOvKSWisAgB4CcJYwCsAC5JAAD+7dj00UuUodqnsX/of5cRfzd+piV9VygVH4YQgAAA",
+    "exif": {
+      "date": "2024-09-19",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 200,
+      "shutter": "1/125"
+    },
+    "color": "#361e0c",
+    "brightness": 0.08990605647058823
+  },
+  {
+    "id": "digi-japan-japan3",
+    "src": "/photos/digi-japan-japan3",
+    "location": "digi\\japan",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQBACdASoUAB4APzleyV8vI6qmGAHgJwlpAABc6f8C1U+w8cS3E9kVAAD+3oZzerKAIjnGI7PCYqSl6rBSmE17k90AAA==",
+    "exif": {
+      "date": "2024-09-27",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 6.3,
+      "iso": 200,
+      "shutter": "1/160"
+    },
+    "color": "#252525",
+    "brightness": 0.5484972549019609
+  },
+  {
+    "id": "digi-japan-japan4",
+    "src": "/photos/digi-japan-japan4",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAwAwCdASoUAA0ALvmczmclLy8vDwD4S0gABTpHFnGThQmAAP6/CR9zrHNsYbYAAAA=",
+    "exif": {
+      "date": "2024-10-11",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4,
+      "iso": 100,
+      "shutter": "1/320"
+    },
+    "color": "#1f1f1f",
+    "brightness": 0.36202666666666666
+  },
+  {
+    "id": "digi-japan-japan5",
+    "src": "/photos/digi-japan-japan5",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACwAwCdASoUAA0APzmKulOvKaWisAgB4CcJaQAAUR52lQFUb+PgAAD1wX82FqXM0lYu29Ls084wAA==",
+    "exif": {
+      "date": "2024-10-11",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 11,
+      "iso": 800,
+      "shutter": "1/2000"
+    },
+    "color": "#343434",
+    "brightness": 0.43834666666666666
+  },
+  {
+    "id": "digi-japan-japan6",
+    "src": "/photos/digi-japan-japan6",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA0APzmOvlOvKqcisAgB4CcJaQAAetCyrHRq1gAA/uv6z72u+cFRzsjt6dEYAAA=",
+    "exif": {
+      "date": "2024-10-17",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 3200,
+      "shutter": "1/40"
+    },
+    "color": "#2b2b2b",
+    "brightness": 0.18629490196078433
+  },
+  {
+    "id": "digi-japan-japan7",
+    "src": "/photos/digi-japan-japan7",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAABwAwCdASoUAA0APzmOvlOvKqcisAgB4CcJaQAAW9F9huyGWwAA/sN+UcVomB9bTLNlsXYAAAA=",
+    "exif": {
+      "date": "2024-10-19",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 3200,
+      "shutter": "1/160"
+    },
+    "color": "#202020",
+    "brightness": 0.6662839215686275
+  },
+  {
+    "id": "digi-japan-japan8",
+    "src": "/photos/digi-japan-japan8",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABQAwCdASoUAA0APzmIu1QvKSYjMAgB4CcJaQAAWkwAK+Nr8AD+UdH/NVx9F300CsigAAAA",
+    "exif": {
+      "date": "2024-11-03",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 11,
+      "iso": 160,
+      "shutter": "1/400"
+    },
+    "color": "#212121",
+    "brightness": 0.5635780392156863
+  },
+  {
+    "id": "digi-japan-japan9",
+    "src": "/photos/digi-japan-japan9",
+    "location": "digi\\japan",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA0APzmQvlWvKqajMAgB4CcJaQAAYdscOw3hp0TMAP4cvmyPqyKoQsPUSdkVvAAAAA==",
+    "exif": {
+      "date": "2024-11-10",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 10,
+      "iso": 1000,
+      "shutter": "1/400"
+    },
+    "color": "#222222",
+    "brightness": 0.2230792156862745
+  },
+  {
+    "id": "digi-montana-montana1",
+    "src": "/photos/digi-montana-montana1",
+    "location": "digi\\montana",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAABwBACdASoUAB4APxl6sFOxKCSit+gCICMJZQDGQDJC3Fy33D35YKLqRO7+AAD9zFLckmO1sf7idNN5h8ZIbYxn1cqt6MSm0AA=",
+    "exif": {
+      "date": "2023-06-17",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 75,
+      "aperture": 4,
+      "iso": 400,
+      "shutter": "1/1250"
+    },
+    "color": "#7e5531",
+    "brightness": 0.2835481835294093
+  },
+  {
+    "id": "digi-montana-montana2",
+    "src": "/photos/digi-montana-montana2",
+    "location": "digi\\montana",
+    "width": 2782,
+    "height": 2207,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUABAAPzmGulQ+qSWjMAgD0CcJZQC06C5JAAD+61kxIJqjsmidJ+7/4lvButUywAA=",
+    "exif": {
+      "date": "2023-07-15",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 300,
+      "aperture": 5.6,
+      "iso": 400,
+      "shutter": "1/200"
+    },
+    "color": "#7d5427",
+    "brightness": 0.2015417709803918
+  },
+  {
+    "id": "digi-montana-montana3",
+    "src": "/photos/digi-montana-montana3",
+    "location": "digi\\montana",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAACQAwCdASoUAA0APzmIu1QvKSYjMAgB4CcJYwC7ABIv7uIHhBAAAP6nszwUKHkEsgjg1IIfvNOolU6gAAA=",
+    "exif": {
+      "date": "2023-07-03",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 20,
+      "iso": 200,
+      "shutter": "1/200"
+    },
+    "color": "#3b7597",
+    "brightness": 0.3707438792156878
+  },
+  {
+    "id": "digi-montana-montana4",
+    "src": "/photos/digi-montana-montana4",
+    "location": "digi\\montana",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAADQAgCdASoUAA0APzmIulQ0qSWjMAgCkCcJZwAAhSoAAP7rqKWVNhDWUOvA/TFAAAA=",
+    "exif": {
+      "date": "2023-06-25",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 300,
+      "aperture": 5.6,
+      "iso": 800,
+      "shutter": "1/125"
+    },
+    "color": "#423e32",
+    "brightness": 0.18811339137254976
+  },
+  {
+    "id": "digi-montana-montana5",
+    "src": "/photos/digi-montana-montana5",
+    "location": "digi\\montana",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAQAwCdASoUAA0APzmOvlOvKqc0sAgCkCcJZwAAUoreEIwA/oACiHjXSyfuC0fmn4jq3sZ4AAA=",
+    "exif": {
+      "date": "2023-07-15",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 6.3,
+      "iso": 400,
+      "shutter": "1/125"
+    },
+    "color": "#113248",
+    "brightness": 0.232101534117644
+  },
+  {
+    "id": "digi-montana-montana6",
+    "src": "/photos/digi-montana-montana6",
+    "location": "digi\\montana",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoUAA0APzmYvlYvLCajsAgB4CcJZwAAifQAAP7q+5pyaUN333nyoOQe8VAAAA==",
+    "exif": {
+      "date": "2023-07-03",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 270,
+      "aperture": 20,
+      "iso": 200,
+      "shutter": "1/200"
+    },
+    "color": "#403836",
+    "brightness": 0.2082061662745103
+  },
+  {
+    "id": "digi-montana-montana7",
+    "src": "/photos/digi-montana-montana7",
+    "location": "digi\\montana",
+    "width": 1366,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAAAwAwCdASoUAB4APzmOwlc0qa+pqAqqkCcJZwAAQzxiSDIAAP7to/B6U/HV+p+CI0Y8vQcAAAA=",
+    "exif": {
+      "date": "2023-07-02",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 1.8,
+      "iso": 400,
+      "shutter": "1/125"
+    },
+    "color": "#1b2225",
+    "brightness": 0.10884122823529416
+  },
+  {
+    "id": "digi-montana-montana8",
+    "src": "/photos/digi-montana-montana8",
+    "location": "digi\\montana",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABQAwCdASoUAA0APzmKulOvKaWisAgB4CcJZQDImCHcbzYnQAD+c+eweSeGP4wm8ODQU7YWgbapAAAA",
+    "exif": {
+      "date": "2023-07-03",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 3.2,
+      "iso": 400,
+      "shutter": "1/125"
+    },
+    "color": "#212922",
+    "brightness": 0.17434605647058712
+  },
+  {
+    "id": "digi-montana-montana9",
+    "src": "/photos/digi-montana-montana9",
+    "location": "digi\\montana",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoUAB4APyWAslOyqKSit/qoAlAkiWMAwoAVnExWs18AANYcWeSL030UhMvctLgcwumJvjuQNxlZrOnrT4otT/fj1MtRW8/AAAA=",
+    "exif": {
+      "date": "2023-06-17",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 75,
+      "aperture": 22,
+      "iso": 400,
+      "shutter": "1/40"
+    },
+    "color": "#204b52",
+    "brightness": 0.2613933411764688
+  },
+  {
+    "id": "digi-nyc-nyc1",
+    "src": "/photos/digi-nyc-nyc1",
+    "location": "digi\\nyc",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAwBACdASoUAB4APzmAvVOvJ6aisBgMAeAnCUAYmwGN1opzFI4lgg1mYQAA/uNE5Ba00P7t3xqAZ15v2+gMXLwG7UaNDIDiXXRAAA==",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 4,
+      "iso": 400,
+      "shutter": "1/1600"
+    },
+    "color": "#352313",
+    "brightness": 0.13688438588235305
+  },
+  {
+    "id": "digi-nyc-nyc2",
+    "src": "/photos/digi-nyc-nyc2",
+    "location": "digi\\nyc",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABQAwCdASoUAB4APzmOuVavKbijqA1TECcJYwC7AAwvl9d2AAD+qCFkDIRnLTCaXWr28lqNg2UTNBKcusELANlr8MggOCkban40sYAA",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 1.8,
+      "iso": 800,
+      "shutter": "1/200"
+    },
+    "color": "#815421",
+    "brightness": 0.10541564705882349
+  },
+  {
+    "id": "digi-nyc-nyc3",
+    "src": "/photos/digi-nyc-nyc3",
+    "location": "digi\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAwAwCdASoUAA0APzmIu1QvKSYjMAgB4CcJZwDCgDBhi78IAP7r+lcgzp8B2CIEQ8FyxKG0XzaNAAAA",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 1.8,
+      "iso": 200,
+      "shutter": "1/200"
+    },
+    "color": "#70584d",
+    "brightness": 0.24152773803921604
+  },
+  {
+    "id": "digi-nyc-nyc4",
+    "src": "/photos/digi-nyc-nyc4",
+    "location": "digi\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAABQAwCdASoUAA0APzmGulQvKSWjMAgB4CcJYgCdABsxB4VdgAD+qBhXdBe8tJdDPW2WiUDwqSOSCZJNPsAAAA==",
+    "exif": {
+      "date": "2023-11-08",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 22,
+      "iso": 100,
+      "shutter": "1/0"
+    },
+    "color": "#803500",
+    "brightness": 0.2899074400000001
+  },
+  {
+    "id": "digi-nyc-nyc5",
+    "src": "/photos/digi-nyc-nyc5",
+    "location": "digi\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAAAQAwCdASoUAA0APzmIvlSvKSajMAgB4CcJZwAAetGGPIAA/uqKLn/toZPCe2DUcAA=",
+    "exif": {
+      "date": "2023-10-29",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 2.8,
+      "iso": 200,
+      "shutter": "1/1600"
+    },
+    "color": "#783028",
+    "brightness": 0.21426920627450993
+  },
+  {
+    "id": "digi-nyc-nyc6",
+    "src": "/photos/digi-nyc-nyc6",
+    "location": "digi\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAwAwCdASoUAA0APzmGulQ+qSWssAgD0CcJZQAAW/ABY1vAAP6ePmODGEMY8+Nz6FUCAAAA",
+    "exif": {
+      "date": "2023-10-29",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 3.2,
+      "iso": 400,
+      "shutter": "1/1000"
+    },
+    "color": "#6d1305",
+    "brightness": 0.17859227764705962
+  },
+  {
+    "id": "digi-nyc-nyc7",
+    "src": "/photos/digi-nyc-nyc7",
+    "location": "digi\\nyc",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAABwAwCdASoUAA0APzmGuVOvKSWisAgB4CcJYwC/OB6XC5ve9qAA/uNJvne2/mIzAcdSfwNAOd9+AAAA",
+    "exif": {
+      "date": "2023-10-28",
+      "camera": "Canon Canon EOS DIGITAL REBEL XS",
+      "focalLength": 50,
+      "aperture": 16,
+      "iso": 200,
+      "shutter": "1/250"
+    },
+    "color": "#c17347",
+    "brightness": 0.19885976941176528
+  },
+  {
+    "id": "digi-pacnw-sb1",
+    "src": "/photos/digi-pacnw-sb1",
+    "location": "digi\\pacnw",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAABQAwCdASoUAA0APzmQvlWvKqajMAgB4CcJZwAAieMJeBRqAAD+5xlEPShCl1ND9kQm6lcKQcAAAA==",
+    "exif": {
+      "date": "2024-03-22",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 400,
+      "shutter": "1/320"
+    },
+    "color": "#273d43",
+    "brightness": 0.29015713882352795
+  },
+  {
+    "id": "digi-pacnw-sb2",
+    "src": "/photos/digi-pacnw-sb2",
+    "location": "digi\\pacnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAwBACdASoUAB4APyGAsVOtKSSit/qoAaAkCWIAtvsvwl6CwyUPrqHrB4AA/u6hltyYEjY8cyU05pgNxt7ejf+d//ijzGb66OCnC9T324t2o46yerJJ9lLX4eIkpvOL2pCG+ZXbcAA=",
+    "exif": {
+      "date": "2024-03-22",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 1600,
+      "shutter": "1/100"
+    },
+    "color": "#643600",
+    "brightness": 0.14953007372548974
+  },
+  {
+    "id": "digi-pacnw-sb3",
+    "src": "/photos/digi-pacnw-sb3",
+    "location": "digi\\pacnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwBACdASoUAB4APzmOuVavKaUjqA1R4CcJZwDE2Ak3A2gYy6gUG2rM9o+2gAD+ubvAk+joreUT4lbZ6yxflV7TBlFgTJvtrlCpuiuvP3zlAlk8AAA=",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 320,
+      "shutter": "1/2500"
+    },
+    "color": "#382922",
+    "brightness": 0.3993046196078427
+  },
+  {
+    "id": "digi-pacnw-sb4",
+    "src": "/photos/digi-pacnw-sb4",
+    "location": "digi\\pacnw",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAAAQAwCdASoUAA0APzmIvlO0qScisAgCkCcJZwAAetEN48AA/uD/JNleEyAhKgGWXDxvcoAA",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 320,
+      "shutter": "1/250"
+    },
+    "color": "#513a43",
+    "brightness": 0.3368513050980291
+  },
+  {
+    "id": "digi-pacnw-sb5",
+    "src": "/photos/digi-pacnw-sb5",
+    "location": "digi\\pacnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoUAB4APzmKuVQ+qaWjMAgD0CcJZwDIXDB0+AAA/uzJa5Zm4XKF8prnNzG4jcyJjRvZ3q7M8AA=",
+    "exif": {
+      "date": "2024-03-18",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5.6,
+      "iso": 125,
+      "shutter": "1/160"
+    },
+    "color": "#3d2c1b",
+    "brightness": 0.11368222745097996
+  },
+  {
+    "id": "digi-pacnw-sb6",
+    "src": "/photos/digi-pacnw-sb6",
+    "location": "digi\\pacnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAABwBACdASoUAB4APzmMu1SvKaYjMAgB4CcJZwDMWBnao7dnCdHC2tLJ64+UwAD90Ou01mwGgjGIBmDCBFBzrRGIoHUICUpvJVlgLEAA",
+    "exif": {
+      "date": "2024-03-22",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 125,
+      "shutter": "1/320"
+    },
+    "color": "#433e3a",
+    "brightness": 0.3533296392156793
+  },
+  {
+    "id": "digi-pacnw-sb7",
+    "src": "/photos/digi-pacnw-sb7",
+    "location": "digi\\pacnw",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAACQAwCdASoUAA0APzmGulOvKSWisAgB4CcJYwCdMoADTpyHgnYAAP7aO4IL+Gshr72n6JAKfF5r8z8+Epi7plQcRPVoAA==",
+    "exif": {
+      "date": "2024-03-14",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 400,
+      "shutter": "1/320"
+    },
+    "color": "#b35a14",
+    "brightness": 0.17580895215686196
+  },
+  {
+    "id": "digi-pacnw-sb8",
+    "src": "/photos/digi-pacnw-sb8",
+    "location": "digi\\pacnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwBACdASoUAB4APzGIulOuqaYisAwB0CYJZQDDcBjFCNi9VtjiC+pS1+PSVgnIAP6en2uZB6n9k0/9qzTPh0iMZF63Qe4oQEYp/WAA",
+    "exif": {
+      "date": "2024-03-21",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 320,
+      "shutter": "1/800"
+    },
+    "color": "#355982",
+    "brightness": 0.5762945035294146
+  },
+  {
+    "id": "digi-pacnw-sb9",
+    "src": "/photos/digi-pacnw-sb9",
+    "location": "digi\\pacnw",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAACwBACdASoUAB4APzmCulOvKCWisBgMAeAnCUAWcAGDxJaNZ5G2ckOQFNoW1jXSAP6BQ00xrh5glsfL3+ktU7fSg3TezjIe8CgOCaeEYaCUZr0Bm4b2ekssaln0RAAA",
+    "exif": {
+      "date": "2024-03-14",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 7.1,
+      "iso": 200,
+      "shutter": "1/160"
+    },
+    "color": "#3a2c1a",
+    "brightness": 0.37879946352941163
+  },
+  {
+    "id": "digi-vietnam-vietnam1",
+    "src": "/photos/digi-vietnam-vietnam1",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAgCdASoUAA0APzmEuVOvKKWisAgB4CcJaQAAeyAA/u4Tfr/VokgAAAA=",
+    "exif": {
+      "date": "2024-01-14",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 250,
+      "shutter": "1/500"
+    },
+    "color": "#60574f",
+    "brightness": 0.09864173647058716
+  },
+  {
+    "id": "digi-vietnam-vietnam10",
+    "src": "/photos/digi-vietnam-vietnam10",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwBACdASoUAB4APzmKu1YvKSWjsBgIAeAnCWUAt7gQ7+EYHMCpCc4I3JxfAAD+4vQrw53UuSRvY6rAwJD+GewPoq6qbUoNBFZ07zZOWuog5xK3odwAAA==",
+    "exif": {
+      "date": "2024-01-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 3200,
+      "shutter": "1/320"
+    },
+    "color": "#4c3017",
+    "brightness": 0.331124334117647
+  },
+  {
+    "id": "digi-vietnam-vietnam11",
+    "src": "/photos/digi-vietnam-vietnam11",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwBACdASoUAB4APzV+t1O/qCUit/VYA/AmiUAVhmQwR4h/1r4EhHGY/ngAAAD+5xmfjne3NxGdkR8u2zPpRH63u/bWSDKCdSGagJmNdpJ6+4gwKzcAAA==",
+    "exif": {
+      "date": "2024-01-07",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 400,
+      "shutter": "1/800"
+    },
+    "color": "#31210a",
+    "brightness": 0.2806746290196065
+  },
+  {
+    "id": "digi-vietnam-vietnam12",
+    "src": "/photos/digi-vietnam-vietnam12",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAABQAwCdASoUAB4APzmIulO/qSWisAgD8CcJYwC84DKadxs5QAD+7eWdT4IVatlH9PkjsTLn12LyKOI6sjMPAAAA",
+    "exif": {
+      "date": "2024-01-08",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 1250,
+      "shutter": "1/100"
+    },
+    "color": "#5d4527",
+    "brightness": 0.06459252549019595
+  },
+  {
+    "id": "digi-vietnam-vietnam13",
+    "src": "/photos/digi-vietnam-vietnam13",
+    "location": "digi\\vietnam",
+    "width": 3163,
+    "height": 4744,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoUAB4APzmMwle/sSejsBgIA/AnCWMAy6QZj80+WD+4AP7uiBevNpPliawD/p5ujZghXOJqDcDG5UJizQEf1DRNT4cMhJM8ngAAAA==",
+    "exif": {
+      "date": "2024-01-09",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 3200,
+      "shutter": "1/320"
+    },
+    "color": "#2a2f0b",
+    "brightness": 0.10895982901960771
+  },
+  {
+    "id": "digi-vietnam-vietnam14",
+    "src": "/photos/digi-vietnam-vietnam14",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAB4APzmUwVmvKicqqAgB4CcJZQDI1A9AFlpWXIIAAP7ad47kp8W/3OSjaV5NTWfbnlWvgnRMeQpn0ickgAAA",
+    "exif": {
+      "date": "2024-01-09",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 2000,
+      "shutter": "1/320"
+    },
+    "color": "#521b0d",
+    "brightness": 0.135260848627451
+  },
+  {
+    "id": "digi-vietnam-vietnam15",
+    "src": "/photos/digi-vietnam-vietnam15",
+    "location": "digi\\vietnam",
+    "width": 2358,
+    "height": 3537,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoUAB4APzmWwlm+qqcvqAgD0CcJaQAAPaOgAP7r8II7O7fUgVr9AGCFccAAAA==",
+    "exif": {
+      "date": "2024-01-10",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 2500,
+      "shutter": "1/125"
+    },
+    "color": "#232323",
+    "brightness": 0.10532078431372549
+  },
+  {
+    "id": "digi-vietnam-vietnam16",
+    "src": "/photos/digi-vietnam-vietnam16",
+    "location": "digi\\vietnam",
+    "width": 3200,
+    "height": 4800,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAABQBACdASoUAB4APzmKulQvKaWssAgB4CcJZwDKtBjFapdSS/18v55yW0UAAP7o8Q9lunGNyO63Cc7haJ5nHuMRv2L4ygQA",
+    "exif": {
+      "date": "2024-01-11",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 640,
+      "shutter": "1/250"
+    },
+    "color": "#382b21",
+    "brightness": 0.12574637490196125
+  },
+  {
+    "id": "digi-vietnam-vietnam17",
+    "src": "/photos/digi-vietnam-vietnam17",
+    "location": "digi\\vietnam",
+    "width": 2900,
+    "height": 4350,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoUAB4APy2Au1OzKKaisAwCYCWJaQAAfODEoOuntpQAwAD+66vxhapYtkKMYkzMnTS9FekpcAAAAA==",
+    "exif": {
+      "date": "2024-01-11",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 160,
+      "shutter": "1/250"
+    },
+    "color": "#292929",
+    "brightness": 0.16120470588235294
+  },
+  {
+    "id": "digi-vietnam-vietnam18",
+    "src": "/photos/digi-vietnam-vietnam18",
+    "location": "digi\\vietnam",
+    "width": 6000,
+    "height": 4000,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAwCdASoUAA0APzmYvlYvLCajsAgB4CcJZwAAQSDcYYAA/g+voMr63r6Y+LT9fTNGJXuBK1nMHiCAAAA=",
+    "exif": {
+      "date": "2024-01-12",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 9,
+      "iso": 160,
+      "shutter": "1/160"
+    },
+    "color": "#566370",
+    "brightness": 0.364180567843137
+  },
+  {
+    "id": "digi-vietnam-vietnam19",
+    "src": "/photos/digi-vietnam-vietnam19",
+    "location": "digi\\vietnam",
+    "width": 6000,
+    "height": 4000,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAAAQAwCdASoUAA0APzmIvlOvKScisAgB4CcJZwAASiqQGTAA2cqIxKg+wqjp3Ur5qrulwdTREXLwAA==",
+    "exif": {
+      "date": "2024-01-12",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 250,
+      "shutter": "1/160"
+    },
+    "color": "#3a3c27",
+    "brightness": 0.49197741176469495
+  },
+  {
+    "id": "digi-vietnam-vietnam2",
+    "src": "/photos/digi-vietnam-vietnam2",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAABQAwCdASoUAA0APzmQvlWvKqajMAgB4CcJZAC7H8ABSj5qtAD51oLRMLy3yD4C5cuVcf42jMOgrnE2ibiD1mxagAA=",
+    "exif": {
+      "date": "2024-01-08",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 10,
+      "iso": 200,
+      "shutter": "1/1600"
+    },
+    "color": "#2378aa",
+    "brightness": 0.5284898603921617
+  },
+  {
+    "id": "digi-vietnam-vietnam20",
+    "src": "/photos/digi-vietnam-vietnam20",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAwBACdASoUAB4APzGCtVOuqKUit/VYAdAmCWUAxgQJD2k/kp4dej2azaAA9TzN95BsCZaznth3e5wFGa5QMSM/2mqAzwp0/YahK3FNfGHAAA==",
+    "exif": {
+      "date": "2024-01-14",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 8,
+      "iso": 100,
+      "shutter": "1/500"
+    },
+    "color": "#2c3538",
+    "brightness": 0.2732950086274481
+  },
+  {
+    "id": "digi-vietnam-vietnam21",
+    "src": "/photos/digi-vietnam-vietnam21",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1462,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkAAAABXRUJQVlA4IDQAAABwAwCdASoUAA4APzleyV8vI6qmGAHgJwlpAABdGUPx8vgjIQAA3GQ9o6P5mE14QpgAAAAA",
+    "exif": {
+      "date": "2024-10-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 200,
+      "shutter": "1/125"
+    },
+    "color": "#252525",
+    "brightness": 0.3626792156862745
+  },
+  {
+    "id": "digi-vietnam-vietnam22",
+    "src": "/photos/digi-vietnam-vietnam22",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRjwAAABXRUJQVlA4IDAAAABQAwCdASoUAA0APzmGuVO0qSWisAgCkCcJYwAAg+/k5KTMAAD+7eRw1GL10mFhiAA=",
+    "exif": {
+      "date": "2024-01-14",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 7.1,
+      "iso": 200,
+      "shutter": "1/800"
+    },
+    "color": "#6b3e05",
+    "brightness": 0.12667162980392127
+  },
+  {
+    "id": "digi-vietnam-vietnam23",
+    "src": "/photos/digi-vietnam-vietnam23",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoUAA0APzmGvFQvKSYjMAgB4CcJZgCdABQON0uFJ6OAAPcfCBvjiGCjJrO4gILNZQ+W7lNH8wbsOwYJUQTGQAAA",
+    "exif": {
+      "date": "2024-01-15",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 7.1,
+      "iso": 160,
+      "shutter": "1/1000"
+    },
+    "color": "#f9d086",
+    "brightness": 0.5294730258823532
+  },
+  {
+    "id": "digi-vietnam-vietnam24",
+    "src": "/photos/digi-vietnam-vietnam24",
+    "location": "digi\\vietnam",
+    "width": 2429,
+    "height": 3644,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAwAwCdASoUAB4APzmGvFa+qCYjsBgIA9AnCWcAznQYejQoAP7q+lNgq1f0hEd5cHXInbMmGwM7noAAAAA=",
+    "exif": {
+      "date": "2024-01-16",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 3.5,
+      "iso": 1000,
+      "shutter": "1/100"
+    },
+    "color": "#523a2a",
+    "brightness": 0.1434070086274502
+  },
+  {
+    "id": "digi-vietnam-vietnam25",
+    "src": "/photos/digi-vietnam-vietnam25",
+    "location": "digi\\vietnam",
+    "width": 3782,
+    "height": 5673,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAwCdASoUAB4APzmQu1UvKqYjMBgIAeAnCWUAwcwYecGfYN0M2l4AAP7s1BuJBk5HuvsxH5WMDLRegiEvGBDvenUMNnOxIz/hwAAA",
+    "exif": {
+      "date": "2024-01-17",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 5,
+      "iso": 160,
+      "shutter": "1/200"
+    },
+    "color": "#643526",
+    "brightness": 0.18778068078431276
+  },
+  {
+    "id": "digi-vietnam-vietnam26",
+    "src": "/photos/digi-vietnam-vietnam26",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1463,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAADQAgCdASoUAA4APzmGu1Q/qSYjMAgD8CcJaQAAfj4AAP7rrLC8zhyKNsPF5qvCTAAAAA==",
+    "exif": {
+      "date": "2024-10-25",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 200,
+      "shutter": "1/160"
+    },
+    "color": "#202020",
+    "brightness": 0.18293019607843136
+  },
+  {
+    "id": "digi-vietnam-vietnam3",
+    "src": "/photos/digi-vietnam-vietnam3",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAADwAwCdASoUAB4APzmQu1WvKiYjMBgIAeAnCWUAgAAEXzI3nU3smTAAAP7ryrG2+fbqsZR8ZN5ghQRTA0ARY7JIV+wJ3giTGQAAAA==",
+    "exif": {
+      "date": "2024-01-07",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 320,
+      "shutter": "1/250"
+    },
+    "color": "#593817",
+    "brightness": 0.11632677176470574
+  },
+  {
+    "id": "digi-vietnam-vietnam4",
+    "src": "/photos/digi-vietnam-vietnam4",
+    "location": "digi\\vietnam",
+    "width": 5477,
+    "height": 3651,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkIAAABXRUJQVlA4IDYAAADwAgCdASoUAA0APzmGulO/qSWisAgD8CcJZQC06DDWAAD+7IxF8thoJybPXtLdqB6Th9gD4AA=",
+    "exif": {
+      "date": "2024-01-03",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 3200,
+      "shutter": "1/320"
+    },
+    "color": "#652f26",
+    "brightness": 0.18678135843137234
+  },
+  {
+    "id": "digi-vietnam-vietnam5",
+    "src": "/photos/digi-vietnam-vietnam5",
+    "location": "digi\\vietnam",
+    "width": 6000,
+    "height": 4000,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAAAQAwCdASoUAA0APzmGuVOvKSWisAgB4CcJQAAPWiHZ4AAA/utX9OyUC+NpNb/OBLFeErnB9+9HAAAA",
+    "exif": {
+      "date": "2024-01-03",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 400,
+      "shutter": "1/500"
+    },
+    "color": "#47640f",
+    "brightness": 0.1851892501960785
+  },
+  {
+    "id": "digi-vietnam-vietnam6",
+    "src": "/photos/digi-vietnam-vietnam6",
+    "location": "digi\\vietnam",
+    "width": 3831,
+    "height": 5746,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAAAQBACdASoUAB4APzmGuFOvKSUisAgB4CcJZwDIXBsw3Emk2pp5YiP+gAD9HJzn+G2u/6HXQD4Sgn3y/JZq6VNy1qKAAA==",
+    "exif": {
+      "date": "2024-01-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 100,
+      "shutter": "1/320"
+    },
+    "color": "#7b4126",
+    "brightness": 0.23753639372548974
+  },
+  {
+    "id": "digi-vietnam-vietnam7",
+    "src": "/photos/digi-vietnam-vietnam7",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAQBACdASoUAB4APzmYxVYvLCkjsAgB4CcJYwDBzCHfF1txf8+d5xTIeAD+2S9yzABpDyVS0/lujOwk8Ae5TkYxhpkJLPO9uKmRRvetryXs3VgAAAA=",
+    "exif": {
+      "date": "2024-01-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 2.8,
+      "iso": 250,
+      "shutter": "1/800"
+    },
+    "color": "#214c6d",
+    "brightness": 0.3662783043137279
+  },
+  {
+    "id": "digi-vietnam-vietnam8",
+    "src": "/photos/digi-vietnam-vietnam8",
+    "location": "digi\\vietnam",
+    "width": 1365,
+    "height": 2048,
+    "sizes": [
+      400,
+      800
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAABwBACdASoUAB4APyl2tFOuJqUit/qoAcAlCWMAv+wh34ksZd1WRiZLtVBI5AD+4uem3oahHQ5QQAj3NoAaZBvk3VnGoBc0F3IkS0pcKxLcAA==",
+    "exif": {
+      "date": "2024-01-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 4.5,
+      "iso": 2500,
+      "shutter": "1/640"
+    },
+    "color": "#660511",
+    "brightness": 0.20483101019607775
+  },
+  {
+    "id": "digi-vietnam-vietnam9",
+    "src": "/photos/digi-vietnam-vietnam9",
+    "location": "digi\\vietnam",
+    "width": 2048,
+    "height": 1365,
+    "sizes": [
+      400,
+      800,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkQAAABXRUJQVlA4IDgAAACQAwCdASoUAA0APzmGulQvKSWjMAgB4CcJYwC06CHfxYOhEkLAAP7jE7HvYrnZ2/n3vFipnQAAAA==",
+    "exif": {
+      "date": "2024-01-05",
+      "camera": "RICOH IMAGING COMPANY, LTD. RICOH GR IIIx",
+      "focalLength": 26,
+      "aperture": 7.1,
+      "iso": 5000,
+      "shutter": "1/320"
+    },
+    "color": "#36180e",
+    "brightness": 0.23448600627450802
+  }
+]
