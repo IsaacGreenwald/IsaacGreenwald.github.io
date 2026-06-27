@@ -24,7 +24,7 @@ function hexToHsl(hex) {
   return { h, s, l };
 }
 
-const MUTED = 0.10;
+const MUTED = 0.1;
 const GREY_JITTER = 0.12;
 const COLOR_JITTER = 0.04;
 const HUE_SHIFT = 0.05;

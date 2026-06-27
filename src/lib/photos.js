@@ -144,14 +144,14 @@ const DIGITAL_COVERS = {
 };
 
 const DIGITAL_REGIONS = {
-  vietnam: 'Southeast Asia',
+  vietnam: 'Vietnam',
   japan: 'Japan',
   italy: 'Italy',
-  centeur: 'Central Europe',
-  pacnw: 'Pacific Northwest',
+  centeur: 'France, Netherlands, Germany, Czechia, Austria, Hungary',
+  pacnw: 'Washington',
   nyc: 'New York',
   montana: 'Montana',
-  climbing: ''
+  climbing: 'Colorado, New Mexico, Nevada, Idaho'
 };
 
 function medianYear(list) {

@@ -49,10 +49,16 @@ const { title = 'Isaac Greenwald', active = '' } = Astro.props;
         padding: 1.5rem 2.25rem;
       }
       .wordmark {
-        font-family: var(--font-serif);
-        font-size: 1.05rem;
-        letter-spacing: 0.01em;
+        font-family: var(--font-sans);
+        font-size: 0.95rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.13em;
+        white-space: nowrap;
+        opacity: 0.55;
+        transition: opacity 0.2s ease;
       }
+      .wordmark:hover { opacity: 1; }
       .nav {
         display: flex;
         gap: 1.75rem;

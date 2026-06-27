@@ -1,21 +1,23 @@
 ---
-import Base from '../../layouts/Base.astro';
+import PhotoLayout from '../../layouts/PhotoLayout.astro';
 import JustifiedGallery from '../../components/JustifiedGallery.jsx';
 import { getFilmPhotos } from '../../lib/photos.js';
 
 const photos = getFilmPhotos();
 ---
 
-<Base title="35mm">
+<PhotoLayout title="35mm — Isaac Greenwald" active="35mm">
   <main>
-    <JustifiedGallery photos={photos} targetRowHeight={300} gap={0} uniform client:load />
+    <JustifiedGallery photos={photos} targetRowHeight={300} gap={0} uniform client:visible />
   </main>
 
   <style>
     main {
+      flex: 1;
       padding: 1.5rem;
       max-width: 1600px;
       margin: 0 auto;
+      width: 100%;
     }
   </style>
-</Base>
+</PhotoLayout>
