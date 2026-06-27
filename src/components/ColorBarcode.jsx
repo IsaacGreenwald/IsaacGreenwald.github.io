@@ -386,7 +386,7 @@ export default function ColorBarcode({ photos }) {
         }
 
         .stripe.highlight {
-          transform: scaleX(2.6) scaleY(1.55);
+          transform: scaleX(2.6) scaleY(1.2);
           box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
           z-index: 2;
         }

@@ -1,0 +1,30 @@
+---
+import { sortByHue } from '../lib/photos.js';
+
+// `slice`: fixed px width per stripe. Omit to auto-fill the container evenly.
+const { photos, height = 30, slice = null } = Astro.props;
+const sorted = sortByHue(photos);
+const stripeStyle = slice ? `flex:0 0 ${slice}px` : 'flex:1 1 0';
+---
+
+<div
+  class="colorstrip"
+  style={`--h:${height}px;${slice ? 'width:max-content;max-width:100%;' : 'width:100%;'}`}
+  role="img"
+  aria-label="Color signature of this set"
+>
+  {sorted.map(p => <span class="cs-stripe" style={`background:${p.color};${stripeStyle}`}></span>)}
+</div>
+
+<style>
+  .colorstrip {
+    display: flex;
+    height: var(--h);
+    overflow: hidden;
+    pointer-events: none;
+    border-radius: 1px;
+  }
+  .cs-stripe {
+    min-width: 2px;
+  }
+</style>

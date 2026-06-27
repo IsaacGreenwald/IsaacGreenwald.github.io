@@ -1,6 +1,7 @@
 ---
 import PhotoLayout from '../../../layouts/PhotoLayout.astro';
 import JustifiedGallery from '../../../components/JustifiedGallery.jsx';
+import ColorStrip from '../../../components/ColorStrip.astro';
 import { getDigitalSets } from '../../../lib/photos.js';
 
 export function getStaticPaths() {
@@ -17,7 +18,12 @@ const { set } = Astro.props;
   <main class="page">
     <header class="head">
       <a class="back" href="/photography/digital">← Digital</a>
-      <h1>{set.name}</h1>
+      <div class="title-row">
+        <h1>{set.name}</h1>
+        <div class="signature">
+          <ColorStrip photos={set.photos} height={50} slice={3}/>
+        </div>
+      </div>
       <p class="meta">
         <span>{set.count} frames</span>
         {set.region && <span class="dot">·</span>}
@@ -49,12 +55,31 @@ const { set } = Astro.props;
       transition: opacity 0.2s ease;
     }
     .back:hover { opacity: 1; }
+    .title-row {
+      display: flex;
+      align-items: flex-end;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      margin-top: 0.9rem;
+    }
     .head h1 {
       font-family: var(--font-serif);
       font-weight: 500;
       font-size: clamp(2rem, 4.5vw, 3.25rem);
       line-height: 1.05;
-      margin-top: 0.9rem;
+    }
+    .signature {
+      flex: 1 1 200px;
+      max-width: 360px;
+      margin-bottom: 0.55rem;
+    }
+    .sig-label {
+      display: block;
+      margin-top: 0.4rem;
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #6a6a6a;
     }
     .meta {
       margin-top: 0.6rem;

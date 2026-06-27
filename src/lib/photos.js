@@ -36,6 +36,59 @@ export function srcset(photo) {
   return photo.sizes.map(w => `${photo.src}-${w}.webp ${w}w`).join(', ');
 }
 
+// --- Hue ordering (mirrors the interactive ColorBarcode) ---
+const HUE_MUTED = 0.10;
+const HUE_GREY_JITTER = 0.12;
+const HUE_COLOR_JITTER = 0.04;
+const HUE_SHIFT = 0.05;
+
+function hexToHsl(hex) {
+  const r = parseInt(hex.slice(1, 3), 16) / 255;
+  const g = parseInt(hex.slice(3, 5), 16) / 255;
+  const b = parseInt(hex.slice(5, 7), 16) / 255;
+  const max = Math.max(r, g, b);
+  const min = Math.min(r, g, b);
+  const l = (max + min) / 2;
+  if (max === min) return { h: 0, s: 0, l };
+  const d = max - min;
+  const s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+  let h;
+  switch (max) {
+    case r: h = ((g - b) / d + (g < b ? 6 : 0)) / 6; break;
+    case g: h = ((b - r) / d + 2) / 6; break;
+    default: h = ((r - g) / d + 4) / 6; break;
+  }
+  return { h, s, l };
+}
+
+const chroma = hsl => (1 - Math.abs(2 * hsl.l - 1)) * hsl.s;
+
+function hueJitter(id) {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = (h * 31 + id.charCodeAt(i)) | 0;
+  return ((h >>> 0) % 10000) / 10000 - 0.5;
+}
+
+/** Sorts photos into the barcode's hue order: muted greys first, then rainbow. */
+export function sortByHue(list) {
+  return [...list].sort((a, b) => {
+    const A = hexToHsl(a.color);
+    const B = hexToHsl(b.color);
+    const cA = chroma(A);
+    const cB = chroma(B);
+    const mutedA = cA < HUE_MUTED;
+    const mutedB = cB < HUE_MUTED;
+    if (mutedA && mutedB) {
+      return (cA + A.l * 0.15 + hueJitter(a.id) * HUE_GREY_JITTER)
+        - (cB + B.l * 0.15 + hueJitter(b.id) * HUE_GREY_JITTER);
+    }
+    if (mutedA) return -1;
+    if (mutedB) return 1;
+    return ((A.h + HUE_SHIFT) % 1 + hueJitter(a.id) * HUE_COLOR_JITTER)
+      - ((B.h + HUE_SHIFT) % 1 + hueJitter(b.id) * HUE_COLOR_JITTER);
+  });
+}
+
 export function getPhotos(medium, place) {
   return photos.filter(p => {
     const loc = parseLocation(p.location);
@@ -79,14 +132,15 @@ export function getFilmPhotos() {
 const DIGITAL_ORDER = ['vietnam', 'japan', 'italy', 'centeur', 'pacnw', 'nyc', 'montana', 'climbing'];
 
 const DIGITAL_COVERS = {
-  vietnam: 'digi-vietnam-vietnam3',
+  climbing: 'digi-climbing-climbing2',
   japan: 'digi-japan-japan1',
   italy: 'digi-italy-italy12',
   centeur: 'digi-centeur-germany8',
   pacnw: 'digi-pacnw-sb4',
+  vietnam: 'digi-vietnam-vietnam3',
   nyc: 'digi-nyc-nyc4',
-  montana: 'digi-montana-montana1',
-  climbing: 'digi-climbing-climbing2'
+  montana: 'digi-montana-montana1'
+  
 };
 
 const DIGITAL_REGIONS = {
