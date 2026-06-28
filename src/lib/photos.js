@@ -36,6 +36,40 @@ export function srcset(photo) {
   return photo.sizes.map(w => `${photo.src}-${w}.webp ${w}w`).join(', ');
 }
 
+/** Tidies raw EXIF camera strings (drops duplicate makes, shouty all-caps). */
+export function cameraName(raw) {
+  if (!raw) return '';
+  return raw
+    .replace(/ricoh imaging company,?\s*ltd\.?,?\s*/i, '')
+    .replace(/^canon\s+canon\b/i, 'Canon')
+    .replace(/\b[A-Z]{4,}\b/g, w => w[0] + w.slice(1).toLowerCase())
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/** Camera + shooting settings as display strings, skipping missing/invalid values. */
+export function exifSettings(exif) {
+  if (!exif) return [];
+  const parts = [];
+  const cam = cameraName(exif.camera);
+  if (cam) parts.push(cam);
+  if (exif.focalLength) parts.push(`${exif.focalLength}mm`);
+  if (exif.aperture) parts.push(`ƒ/${exif.aperture}`);
+  if (exif.shutter && exif.shutter !== '1/0') parts.push(`${exif.shutter}s`);
+  if (exif.iso) parts.push(`ISO ${exif.iso}`);
+  return parts;
+}
+
+export function exifDate(exif) {
+  if (!exif?.date) return '';
+  return new Date(exif.date).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC'
+  });
+}
+
 // --- Hue ordering (mirrors the interactive ColorBarcode) ---
 const HUE_MUTED = 0.10;
 const HUE_GREY_JITTER = 0.12;

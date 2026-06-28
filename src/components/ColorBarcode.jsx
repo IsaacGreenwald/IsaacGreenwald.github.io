@@ -400,7 +400,7 @@ export default function ColorBarcode({ photos }) {
 
         .matches {
           margin: 4rem auto 0;
-          max-width: 1040px;
+          max-width: 1400px;
           padding-top: 2.25rem;
           border-top: 1px solid rgba(255, 255, 255, 0.08);
           opacity: 0.82;
@@ -456,7 +456,7 @@ export default function ColorBarcode({ photos }) {
 
         .match {
           display: block;
-          height: 150px;
+          height: 200px;
           padding: 0;
           border: none;
           overflow: hidden;

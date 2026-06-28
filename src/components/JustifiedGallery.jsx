@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { exifSettings, exifDate } from '../lib/photos.js';
 
 function srcset(photo) {
   return photo.sizes.map(w => `${photo.src}-${w}.webp ${w}w`).join(', ');
@@ -120,6 +121,8 @@ function Lightbox({ photos, index, onClose, onNav }) {
 
   const photo = photos[index];
   const big = photo.sizes[photo.sizes.length - 1];
+  const settings = exifSettings(photo.exif);
+  const date = exifDate(photo.exif);
 
   return (
     <div className="lb-overlay" onClick={onClose}>
@@ -129,12 +132,15 @@ function Lightbox({ photos, index, onClose, onNav }) {
         aria-label="Previous"
         onClick={e => { e.stopPropagation(); onNav(-1); }}
       >‹</button>
-      <img
-        className="lb-img"
-        src={`${photo.src}-${big}.webp`}
-        alt=""
-        onClick={e => e.stopPropagation()}
-      />
+      <figure className="lb-figure" onClick={e => e.stopPropagation()}>
+        <img className="lb-img" src={`${photo.src}-${big}.webp`} alt="" />
+        {(settings.length > 0 || date) && (
+          <figcaption className="lb-caption">
+            {settings.length > 0 && <span className="lb-settings">{settings.join('  ·  ')}</span>}
+            {date && <span className="lb-date">{date}</span>}
+          </figcaption>
+        )}
+      </figure>
       <button
         className="lb-arrow lb-next"
         aria-label="Next"
@@ -225,12 +231,39 @@ export default function JustifiedGallery({
           justify-content: center;
           cursor: zoom-out;
         }
+        .lb-figure {
+          margin: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.85rem;
+          cursor: default;
+        }
         .lb-img {
           max-width: 92vw;
-          max-height: 92vh;
+          max-height: 84vh;
           object-fit: contain;
-          cursor: default;
           box-shadow: 0 8px 50px rgba(0, 0, 0, 0.6);
+        }
+        .lb-caption {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 0.3rem;
+          text-align: center;
+          color: #cfcfcf;
+        }
+        .lb-settings {
+          font-size: 0.7rem;
+          text-transform: uppercase;
+          letter-spacing: 0.13em;
+          color: #b8b8b8;
+        }
+        .lb-date {
+          font-family: 'Newsreader', Georgia, serif;
+          font-style: italic;
+          font-size: 0.95rem;
+          color: #8a8a8a;
         }
         .lb-close {
           position: fixed;
