@@ -9,6 +9,8 @@ const nav = [
   { href: '#contact', label: 'Contact', key: 'contact' }
 ];
 
+const eyebrow = 'Software Engineer · New Orleans';
+
 const intro =
   'Software engineer at Copado, working on AI platform features and agentic workflows. ' +
   'Computer science grad from Colorado College, based in New Orleans. ' +
@@ -27,7 +29,7 @@ const education = {
 };
 
 const skills = [
-  'Python', 'TypeScript', 'React', 'Node.js', 'PostgreSQL', 'FastAPI', 'Docker', 'Git'
+  'Python', 'Angular', 'React', 'Node.js', 'PostgreSQL', 'FastAPI', 'Docker', 'Git'
 ];
 
 const projects = [
@@ -101,6 +103,8 @@ const ext = href => href && href.startsWith('http');
 <PhotoLayout title="Isaac Greenwald" links={nav}>
   <main class="home">
     <section class="hero">
+      <p class="eyebrow">{eyebrow}</p>
+      <h1 class="display">Isaac<br />Greenwald</h1>
       <p class="intro">{intro}</p>
       <div class="links">
         {socials.map(s => (
@@ -182,75 +186,85 @@ const ext = href => href && href.startsWith('http');
     .home {
       flex: 1;
       width: 100%;
-      max-width: 780px;
+      max-width: 800px;
       margin: 0 auto;
-      padding: 0 2.25rem 6rem;
+      padding: 0 2.5rem 7rem;
+      position: relative;
+      z-index: 1;
     }
 
-    .hero { padding: clamp(3rem, 12vh, 8rem) 0 4rem; }
+    /* ---------- HERO ---------- */
+    .hero { padding: clamp(3rem, 14vh, 9rem) 0 5rem; }
     .eyebrow {
-      font-size: 0.7rem;
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
       text-transform: uppercase;
-      letter-spacing: 0.22em;
-      color: #8a8a8a;
-      margin-bottom: 1.25rem;
+      letter-spacing: 0.16em;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
     }
-    .hero h1 {
+    .display {
       font-family: var(--font-serif);
       font-weight: 500;
-      font-size: clamp(2.4rem, 6vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: -0.01em;
+      font-size: clamp(3.2rem, 11vw, 6.5rem);
+      line-height: 0.96;
+      letter-spacing: -0.025em;
     }
     .intro {
-      margin-top: 1.5rem;
-      max-width: 38rem;
-      font-size: 1.02rem;
-      line-height: 1.65;
-      color: #b0b0b0;
+      margin-top: 2.25rem;
+      max-width: 36rem;
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #b4b4b4;
     }
 
+    /* ---------- LINK ROWS ---------- */
     .links {
       display: flex;
       flex-wrap: wrap;
-      gap: 1.5rem;
-      margin-top: 2rem;
+      gap: 1.75rem;
+      margin-top: 2.5rem;
+      font-family: var(--font-mono);
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    .links a {
+      opacity: 0.7;
+      padding-bottom: 4px;
+      border-bottom: 1px solid transparent;
+      transition: color 0.2s ease, border-color 0.2s ease, opacity 0.2s ease;
+    }
+    .links a:hover {
+      opacity: 1;
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
+    /* ---------- SECTIONS ---------- */
+    .block {
+      padding: 4.5rem 0;
+      border-top: 1px solid var(--hairline);
+    }
+    .kicker {
+      font-family: var(--font-mono);
       font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 0.16em;
-    }
-    .links a {
-      opacity: 0.6;
-      padding-bottom: 2px;
-      border-bottom: 1px solid transparent;
-      transition: opacity 0.2s ease, border-color 0.2s ease;
-    }
-    .links a:hover { opacity: 1; border-color: currentColor; }
-
-    .block {
-      padding: 3.5rem 0;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
-    }
-    .kicker {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: #8a8a8a;
-      font-weight: 400;
-      margin-bottom: 1.75rem;
+      color: var(--accent);
+      font-weight: 500;
+      margin-bottom: 2rem;
     }
     .prose {
       max-width: 40rem;
-      font-size: 1rem;
-      line-height: 1.7;
-      color: #b0b0b0;
+      font-size: 1.02rem;
+      line-height: 1.75;
+      color: #b4b4b4;
     }
-    .prose + .prose { margin-top: 1rem; }
+    .prose + .prose { margin-top: 1.1rem; }
 
-    .edu {
-      margin-top: 2.5rem;
-      max-width: 40rem;
-    }
+    /* ---------- EDUCATION ---------- */
+    .edu { margin-top: 2.75rem; max-width: 40rem; }
     .edu-head {
       display: flex;
       align-items: baseline;
@@ -258,39 +272,51 @@ const ext = href => href && href.startsWith('http');
       gap: 1rem;
     }
     .edu-period {
+      font-family: var(--font-mono);
       font-size: 0.72rem;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #7a7a7a;
+      letter-spacing: 0.08em;
+      color: var(--faint);
       white-space: nowrap;
     }
-    .edu h3 { font-size: 1.05rem; font-weight: 500; }
-    .edu-degree { color: #a8a8a8; font-size: 0.95rem; margin-top: 0.2rem; }
-    .edu-detail { color: #7f7f7f; font-size: 0.85rem; margin-top: 0.35rem; line-height: 1.5; }
+    .edu h3 { font-size: 1.1rem; font-weight: 500; }
+    .edu-degree { color: #a8a8a8; font-size: 0.95rem; margin-top: 0.25rem; }
+    .edu-detail { color: var(--faint); font-size: 0.85rem; margin-top: 0.4rem; line-height: 1.5; }
 
+    /* ---------- TAGS ---------- */
     .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-    .skills { margin-top: 2rem; }
+    .skills { margin-top: 2.5rem; }
     .tag {
-      font-size: 0.62rem;
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #8a8a8a;
-      border: 1px solid rgba(255, 255, 255, 0.14);
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      border: 1px solid var(--hairline);
       border-radius: 999px;
-      padding: 0.2rem 0.6rem;
+      padding: 0.25rem 0.65rem;
     }
 
-    .projects, .experience {
+    /* ---------- PROJECTS ---------- */
+    .projects {
       list-style: none;
       display: flex;
       flex-direction: column;
+      gap: 0.85rem;
     }
     .project-link {
       display: block;
-      padding: 1.4rem 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 1.5rem 1.6rem;
+      background: var(--surface);
+      border: 1px solid var(--hairline);
+      border-radius: 10px;
+      transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
     }
-    .project:last-child .project-link { border-bottom: none; }
+    a.project-link:hover {
+      transform: translateY(-3px);
+      background: var(--surface-2);
+      border-color: rgba(224, 162, 78, 0.45);
+    }
     .project-head {
       display: flex;
       align-items: baseline;
@@ -300,59 +326,62 @@ const ext = href => href && href.startsWith('http');
     .project-head h3 {
       font-family: var(--font-serif);
       font-weight: 500;
-      font-size: 1.4rem;
+      font-size: 1.45rem;
     }
-    .arrow { color: #6a6a6a; transition: color 0.2s ease; }
-    a.project-link:hover .arrow { color: #e0e0e0; }
+    .arrow { color: var(--faint); transition: color 0.2s ease, transform 0.2s ease; }
+    a.project-link:hover .arrow { color: var(--accent); transform: translate(2px, -2px); }
     .project-blurb {
-      margin-top: 0.5rem;
-      max-width: 42rem;
+      margin-top: 0.55rem;
+      max-width: 44rem;
       color: #9a9a9a;
-      font-size: 0.95rem;
+      font-size: 0.96rem;
       line-height: 1.6;
     }
-    .project .tags { margin-top: 0.85rem; }
+    .project .tags { margin-top: 1rem; }
 
+    /* ---------- EXPERIENCE ---------- */
+    .experience { list-style: none; }
     .exp {
       display: grid;
       grid-template-columns: 9rem 1fr;
       gap: 1.5rem;
-      padding: 1.5rem 0;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding: 1.6rem 0;
+      border-bottom: 1px solid var(--hairline);
     }
     .exp:last-child { border-bottom: none; }
     .exp-period {
+      font-family: var(--font-mono);
       font-size: 0.72rem;
       text-transform: uppercase;
-      letter-spacing: 0.12em;
-      color: #7a7a7a;
+      letter-spacing: 0.06em;
+      color: var(--faint);
       padding-top: 0.3rem;
     }
-    .exp-body h3 { font-size: 1.05rem; font-weight: 500; }
-    .exp-org { color: #8a8a8a; font-weight: 400; }
+    .exp-body h3 { font-size: 1.08rem; font-weight: 500; }
+    .exp-org { color: var(--muted); font-weight: 400; }
     .exp-points {
       list-style: none;
-      margin-top: 0.6rem;
+      margin-top: 0.7rem;
       display: flex;
       flex-direction: column;
-      gap: 0.4rem;
+      gap: 0.45rem;
     }
     .exp-points li {
       position: relative;
-      padding-left: 1rem;
+      padding-left: 1.1rem;
       color: #9a9a9a;
       font-size: 0.93rem;
-      line-height: 1.55;
+      line-height: 1.6;
     }
     .exp-points li::before {
-      content: '-';
+      content: '—';
       position: absolute;
       left: 0;
-      color: #5a5a5a;
+      color: #555;
     }
 
     @media (max-width: 600px) {
-      .home { padding: 0 1.25rem 4rem; }
+      .home { padding: 0 1.4rem 4rem; }
       .exp { grid-template-columns: 1fr; gap: 0.5rem; }
     }
   </style>
