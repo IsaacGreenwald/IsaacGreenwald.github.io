@@ -24,7 +24,8 @@ const about = [
 const education = {
   school: 'Colorado College',
   degree: 'B.A. Computer Science, Minor in Statistics',
-  detail: 'GPA 3.89 · Dean’s List · Thesis: Analysis of Artificial Intelligence Use at Colorado College',
+  meta: 'GPA 3.89 · Dean’s List',
+  thesis: 'Analysis of Artificial Intelligence Use at Colorado College',
   period: 'May 2025'
 };
 
@@ -123,11 +124,15 @@ const ext = href => href && href.startsWith('http');
           <span class="edu-period">{education.period}</span>
         </div>
         <p class="edu-degree">{education.degree}</p>
-        <p class="edu-detail">{education.detail}</p>
+        <p class="edu-meta">{education.meta}</p>
+        <p class="edu-thesis"><span class="edu-thesis-label">Thesis</span> {education.thesis}</p>
       </div>
 
-      <div class="tags skills">
-        {skills.map(s => <span class="tag">{s}</span>)}
+      <div class="skills">
+        <p class="cluster-label">Stack</p>
+        <div class="tags">
+          {skills.map(s => <span class="tag">{s}</span>)}
+        </div>
       </div>
     </section>
 
@@ -181,6 +186,21 @@ const ext = href => href && href.startsWith('http');
       </div>
     </section>
   </main>
+
+  <script>
+    document.querySelectorAll('a[href^="mailto:"]').forEach(a => {
+      a.addEventListener('click', async () => {
+        const email = a.getAttribute('href').replace('mailto:', '');
+        try {
+          await navigator.clipboard.writeText(email);
+          const original = a.textContent;
+          a.textContent = 'Copied ✓';
+          a.classList.add('copied');
+          setTimeout(() => { a.textContent = original; a.classList.remove('copied'); }, 1500);
+        } catch {}
+      });
+    });
+  </script>
 
   <style>
     .home {
@@ -240,6 +260,11 @@ const ext = href => href && href.startsWith('http');
       color: var(--accent);
       border-color: var(--accent);
     }
+    .links a.copied {
+      opacity: 1;
+      color: var(--accent);
+      border-color: transparent;
+    }
 
     /* ---------- SECTIONS ---------- */
     .block {
@@ -264,7 +289,15 @@ const ext = href => href && href.startsWith('http');
     .prose + .prose { margin-top: 1.1rem; }
 
     /* ---------- EDUCATION ---------- */
-    .edu { margin-top: 2.75rem; max-width: 40rem; }
+    .edu {
+      margin-top: 2.25rem;
+      max-width: 40rem;
+      background: var(--surface);
+      border: 1px solid var(--hairline);
+      border-left: 2px solid var(--accent);
+      border-radius: 0 10px 10px 0;
+      padding: 1.4rem 1.6rem;
+    }
     .edu-head {
       display: flex;
       align-items: baseline;
@@ -279,22 +312,57 @@ const ext = href => href && href.startsWith('http');
       color: var(--faint);
       white-space: nowrap;
     }
-    .edu h3 { font-size: 1.1rem; font-weight: 500; }
-    .edu-degree { color: #a8a8a8; font-size: 0.95rem; margin-top: 0.25rem; }
-    .edu-detail { color: var(--faint); font-size: 0.85rem; margin-top: 0.4rem; line-height: 1.5; }
+    .edu h3 { font-size: 1.3rem; font-weight: 500; letter-spacing: -0.01em; }
+    .edu-degree { color: #a4a4a4; font-size: 0.95rem; margin-top: 0.3rem; }
+    .edu-meta {
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      color: var(--faint);
+      margin-top: 0.5rem;
+    }
+    .edu-thesis {
+      margin-top: 0.85rem;
+      color: #d4d4d4;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .edu-thesis-label {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--accent);
+      margin-right: 0.5rem;
+      vertical-align: 0.05em;
+    }
 
     /* ---------- TAGS ---------- */
     .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .skills { margin-top: 2.5rem; }
+    .cluster-label {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--faint);
+      margin-bottom: 0.9rem;
+    }
     .tag {
       font-family: var(--font-mono);
       font-size: 0.66rem;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       color: var(--muted);
-      border: 1px solid var(--hairline);
+      border: 1px solid rgba(255, 255, 255, 0.16);
       border-radius: 999px;
       padding: 0.25rem 0.65rem;
+      transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+    }
+    .tag:hover {
+      color: var(--text);
+      border-color: rgba(224, 162, 78, 0.5);
+      background: rgba(224, 162, 78, 0.08);
     }
 
     /* ---------- PROJECTS ---------- */
