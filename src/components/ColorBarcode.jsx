@@ -89,7 +89,7 @@ const MATCH_LABELS = {
 
 const photoTime = p => new Date(p.exif?.date || 0).getTime();
 
-const formatDate = d => d ? new Date(d).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '—';
+const formatDate = d => d ? new Date(d).toLocaleDateString(undefined, { month: 'short', year: 'numeric' }) : '-';
 const greyHex = v => { const n = Math.round(v * 255); return `rgb(${n},${n},${n})`; };
 
 // Nearest photos to the clicked one by whatever metric the bar is sorted by,

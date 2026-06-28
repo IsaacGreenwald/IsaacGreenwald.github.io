@@ -5,12 +5,7 @@ function srcset(photo) {
   return photo.sizes.map(w => `${photo.src}-${w}.webp ${w}w`).join(', ');
 }
 
-// Justified-rows layout (Flickr / Google Photos style) with look-ahead.
-// Each row is scaled so its photos span the full width exactly — flush both
-// edges, uniform gaps, zero cropping. Row heights vary (that's what absorbs
-// the math), but at every break we choose to close the row with or without
-// the next photo based on whichever height lands closest to the target, which
-// keeps heights tightly clustered around targetHeight.
+
 function computeRows(photos, containerWidth, targetHeight, gap, uniform) {
   if (!containerWidth) return [];
 
@@ -42,7 +37,7 @@ function computeRows(photos, containerWidth, targetHeight, gap, uniform) {
     const heightWith = heightFor(arSum + ar, row.length + 1);
 
     if (heightWith > targetHeight) {
-      // Row not full yet — keep adding.
+      // Row not full yet - keep adding.
       row.push({ photo, ar });
       arSum += ar;
       continue;

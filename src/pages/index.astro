@@ -1,17 +1,359 @@
 ---
+import PhotoLayout from '../layouts/PhotoLayout.astro';
 
+const nav = [
+  { href: '#about', label: 'About', key: 'about' },
+  { href: '#projects', label: 'Projects', key: 'projects' },
+  { href: '#experience', label: 'Experience', key: 'experience' },
+  { href: '/photography', label: 'Photography', key: 'photography' },
+  { href: '#contact', label: 'Contact', key: 'contact' }
+];
+
+const intro =
+  'Software engineer at Copado, working on AI platform features and agentic workflows. ' +
+  'Computer science grad from Colorado College, based in New Orleans. ' +
+  "When I'm not writing code, I enjoy bouldering, photography, and collaging.";
+
+const about = [
+  'I build AI tooling, full-stack web apps, and developer infrastructure, usually driven by the same habit: spotting everyday friction and shipping something genuinely useful.',
+  'My background is computer science with a minor in statistics, and my thesis explored how students really use AI. I care about the craft of a clean interface as much as the system behind it.'
+];
+
+const education = {
+  school: 'Colorado College',
+  degree: 'B.A. Computer Science, Minor in Statistics',
+  detail: 'GPA 3.89 · Dean’s List · Thesis: Analysis of Artificial Intelligence Use at Colorado College',
+  period: 'May 2025'
+};
+
+const skills = [
+  'Python', 'TypeScript', 'React', 'Node.js', 'PostgreSQL', 'FastAPI', 'Docker', 'Git'
+];
+
+const projects = [
+  {
+    name: 'Colorado College AI Taskforce',
+    blurb:
+      'Full-stack analytics platform analyzing student LLM usage across 5 departments - NLP over 1,000+ queries, with an interactive dashboard for professors. My thesis project.',
+    tags: ['React', 'Python', 'PostgreSQL', 'NLP'],
+    href: 'https://github.com/Skingr/tigerone'
+  },
+  {
+    name: 'Photography Portfolio',
+    blurb:
+      'This site - an Astro + React portfolio that indexes my film and digital work by color, sorted into an interactive barcode.',
+    tags: ['Astro', 'React'],
+    href: 'https://github.com/IsaacGreenwald/IsaacGreenwald.github.io'
+  }
+];
+
+const experience = [
+  {
+    role: 'AI Software Engineer',
+    org: 'Copado',
+    period: 'Apr 2026 - Present',
+    points: [
+      "Own end-to-end design and development of a dataset-sharing feature for the company's AI platform, letting users securely share datasets with one another.",
+      'Debug and improve the reliability of agentic AI workflows that deploy an AI agent in a VM to run scheduled multi-step task sequences.',
+      'Ship changes across 5 large-scale repositories spanning agent frameworks and Angular UI.'
+    ]
+  },
+  {
+    role: 'Software Engineering Intern',
+    org: 'Copado',
+    period: 'Jan 2026 - Mar 2026',
+    points: [
+      'Implemented Git-based CI/CD pipelines and navigated Salesforce multi-tenant architecture alongside architect mentors.',
+      'Conducted root-cause analysis in mirrored reproduction environments to resolve complex deployment errors and customer blockers.',
+      'Built autonomous agents and automated testing pipelines to reduce manual development overhead.'
+    ]
+  },
+  {
+    role: 'Software Developer Intern',
+    org: 'Farmhouse Chocolates',
+    period: 'Dec 2025 - Jan 2026',
+    points: [
+      'Built a full-stack web app (React, Node.js, Firebase) to automate inventory tracking and employee task management for a local business.',
+      'Assessed requirements and mapped workflows to find pain points in manual processes and design solutions.'
+    ]
+  },
+  {
+    role: 'Cybersecurity Researcher',
+    org: 'NSF REU · Montana State University',
+    period: 'May 2023 - Aug 2023',
+    points: [
+      'Evaluated the effectiveness of Snort intrusion detection against network-based attacks.',
+      'Built a Docker-based client-server test environment to simulate attacks and measure detection accuracy.'
+    ]
+  }
+];
+
+const socials = [
+  { label: 'Email', href: 'mailto:igreenwald28@gmail.com' },
+  { label: 'GitHub', href: 'https://github.com/IsaacGreenwald' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/isaac-greenwald' },
+  { label: 'Resume', href: '/resume.pdf' }
+];
+
+const ext = href => href && href.startsWith('http');
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<PhotoLayout title="Isaac Greenwald" links={nav}>
+  <main class="home">
+    <section class="hero">
+      <p class="intro">{intro}</p>
+      <div class="links">
+        {socials.map(s => (
+          <a href={s.href} target={ext(s.href) ? '_blank' : undefined} rel="noopener">{s.label}</a>
+        ))}
+      </div>
+    </section>
+
+    <section id="about" class="block">
+      <h2 class="kicker">About</h2>
+      {about.map(p => <p class="prose">{p}</p>)}
+
+      <div class="edu">
+        <div class="edu-head">
+          <h3>{education.school}</h3>
+          <span class="edu-period">{education.period}</span>
+        </div>
+        <p class="edu-degree">{education.degree}</p>
+        <p class="edu-detail">{education.detail}</p>
+      </div>
+
+      <div class="tags skills">
+        {skills.map(s => <span class="tag">{s}</span>)}
+      </div>
+    </section>
+
+    <section id="projects" class="block">
+      <h2 class="kicker">Projects</h2>
+      <ul class="projects">
+        {projects.map(p => {
+          const Tag = p.href ? 'a' : 'div';
+          return (
+            <li class="project">
+              <Tag class="project-link" href={p.href ?? undefined} target={ext(p.href) ? '_blank' : undefined} rel="noopener">
+                <div class="project-head">
+                  <h3>{p.name}</h3>
+                  {p.href && <span class="arrow">↗</span>}
+                </div>
+                <p class="project-blurb">{p.blurb}</p>
+                <div class="tags">
+                  {p.tags.map(t => <span class="tag">{t}</span>)}
+                </div>
+              </Tag>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+
+    <section id="experience" class="block">
+      <h2 class="kicker">Experience</h2>
+      <ul class="experience">
+        {experience.map(e => (
+          <li class="exp">
+            <div class="exp-period">{e.period}</div>
+            <div class="exp-body">
+              <h3>{e.role} <span class="exp-org">· {e.org}</span></h3>
+              <ul class="exp-points">
+                {e.points.map(pt => <li>{pt}</li>)}
+              </ul>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <section id="contact" class="block">
+      <h2 class="kicker">Contact</h2>
+      <p class="prose">The best way to reach me is email - otherwise find me below.</p>
+      <div class="links">
+        {socials.map(s => (
+          <a href={s.href} target={ext(s.href) ? '_blank' : undefined} rel="noopener">{s.label}</a>
+        ))}
+      </div>
+    </section>
+  </main>
+
+  <style>
+    .home {
+      flex: 1;
+      width: 100%;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 0 2.25rem 6rem;
+    }
+
+    .hero { padding: clamp(3rem, 12vh, 8rem) 0 4rem; }
+    .eyebrow {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: #8a8a8a;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      line-height: 1.05;
+      letter-spacing: -0.01em;
+    }
+    .intro {
+      margin-top: 1.5rem;
+      max-width: 38rem;
+      font-size: 1.02rem;
+      line-height: 1.65;
+      color: #b0b0b0;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 2rem;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+    .links a {
+      opacity: 0.6;
+      padding-bottom: 2px;
+      border-bottom: 1px solid transparent;
+      transition: opacity 0.2s ease, border-color 0.2s ease;
+    }
+    .links a:hover { opacity: 1; border-color: currentColor; }
+
+    .block {
+      padding: 3.5rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .kicker {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      color: #8a8a8a;
+      font-weight: 400;
+      margin-bottom: 1.75rem;
+    }
+    .prose {
+      max-width: 40rem;
+      font-size: 1rem;
+      line-height: 1.7;
+      color: #b0b0b0;
+    }
+    .prose + .prose { margin-top: 1rem; }
+
+    .edu {
+      margin-top: 2.5rem;
+      max-width: 40rem;
+    }
+    .edu-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .edu-period {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #7a7a7a;
+      white-space: nowrap;
+    }
+    .edu h3 { font-size: 1.05rem; font-weight: 500; }
+    .edu-degree { color: #a8a8a8; font-size: 0.95rem; margin-top: 0.2rem; }
+    .edu-detail { color: #7f7f7f; font-size: 0.85rem; margin-top: 0.35rem; line-height: 1.5; }
+
+    .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .skills { margin-top: 2rem; }
+    .tag {
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #8a8a8a;
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 999px;
+      padding: 0.2rem 0.6rem;
+    }
+
+    .projects, .experience {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+    .project-link {
+      display: block;
+      padding: 1.4rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .project:last-child .project-link { border-bottom: none; }
+    .project-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .project-head h3 {
+      font-family: var(--font-serif);
+      font-weight: 500;
+      font-size: 1.4rem;
+    }
+    .arrow { color: #6a6a6a; transition: color 0.2s ease; }
+    a.project-link:hover .arrow { color: #e0e0e0; }
+    .project-blurb {
+      margin-top: 0.5rem;
+      max-width: 42rem;
+      color: #9a9a9a;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+    .project .tags { margin-top: 0.85rem; }
+
+    .exp {
+      display: grid;
+      grid-template-columns: 9rem 1fr;
+      gap: 1.5rem;
+      padding: 1.5rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .exp:last-child { border-bottom: none; }
+    .exp-period {
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #7a7a7a;
+      padding-top: 0.3rem;
+    }
+    .exp-body h3 { font-size: 1.05rem; font-weight: 500; }
+    .exp-org { color: #8a8a8a; font-weight: 400; }
+    .exp-points {
+      list-style: none;
+      margin-top: 0.6rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+    .exp-points li {
+      position: relative;
+      padding-left: 1rem;
+      color: #9a9a9a;
+      font-size: 0.93rem;
+      line-height: 1.55;
+    }
+    .exp-points li::before {
+      content: '-';
+      position: absolute;
+      left: 0;
+      color: #5a5a5a;
+    }
+
+    @media (max-width: 600px) {
+      .home { padding: 0 1.25rem 4rem; }
+      .exp { grid-template-columns: 1fr; gap: 0.5rem; }
+    }
+  </style>
+</PhotoLayout>

@@ -1,5 +1,13 @@
 ---
-const { title = 'Isaac Greenwald', active = '' } = Astro.props;
+const {
+  title = 'Isaac Greenwald',
+  active = '',
+  links = [
+    { href: '/photography', label: 'Color', key: 'color' },
+    { href: '/photography/digital', label: 'Digital', key: 'digital' },
+    { href: '/photography/35mm', label: '35mm', key: '35mm' }
+  ]
+} = Astro.props;
 ---
 
 <html lang="en">
@@ -18,9 +26,9 @@ const { title = 'Isaac Greenwald', active = '' } = Astro.props;
     <header class="topbar">
       <a class="wordmark" href="/">Isaac Greenwald</a>
       <nav class="nav">
-        <a href="/photography" class:list={{ active: active === 'color' }}>Color</a>
-        <a href="/photography/digital" class:list={{ active: active === 'digital' }}>Digital</a>
-        <a href="/photography/35mm" class:list={{ active: active === '35mm' }}>35mm</a>
+        {links.map(link => (
+          <a href={link.href} class:list={{ active: active === link.key }}>{link.label}</a>
+        ))}
       </nav>
     </header>
 
@@ -32,6 +40,7 @@ const { title = 'Isaac Greenwald', active = '' } = Astro.props;
         --font-serif: 'Newsreader', Georgia, serif;
       }
       * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { scroll-behavior: smooth; }
       body {
         font-family: var(--font-sans);
         background: #0a0a0a;
