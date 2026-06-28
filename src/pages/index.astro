@@ -12,13 +12,13 @@ const nav = [
 const eyebrow = 'Software Engineer · New Orleans';
 
 const intro =
-  'Software engineer at Copado, working on AI platform features and agentic workflows. ' +
-  'Computer science grad from Colorado College, based in New Orleans. ' +
-  "When I'm not writing code, I enjoy bouldering, photography, and collaging.";
+  'Full-stack software engineer at Copado. I love working end-to-end — building the systems that ' +
+  'have to work and the interfaces that make it yours. Outside of work I enjoy v12 bouldering, ' +
+  'and film and digital photography. CS grad from Colorado College, based in New Orleans.';
 
 const about = [
-  'I build AI tooling, full-stack web apps, and developer infrastructure, usually driven by the same habit: spotting everyday friction and shipping something genuinely useful.',
-  'My background is computer science with a minor in statistics, and my thesis explored how students really use AI. I care about the craft of a clean interface as much as the system behind it.'
+  'I build AI tooling, full-stack web apps, and developer infrastructure — usually because I spot some everyday friction and want to ship the fix.',
+  'My background is computer science with a minor in statistics. At Colorado College my thesis dug into how students really use AI — and it left me caring as much about how these tools get used as how they get built.'
 ];
 
 const education = {
@@ -103,88 +103,93 @@ const ext = href => href && href.startsWith('http');
 
 <PhotoLayout title="Isaac Greenwald" links={nav}>
   <main class="home">
-    <section class="hero">
-      <p class="eyebrow">{eyebrow}</p>
-      <h1 class="display">Isaac<br />Greenwald</h1>
-      <p class="intro">{intro}</p>
-      <div class="links">
-        {socials.map(s => (
-          <a href={s.href} target={ext(s.href) ? '_blank' : undefined} rel="noopener">{s.label}</a>
-        ))}
-      </div>
-    </section>
-
-    <section id="about" class="block">
-      <h2 class="kicker">About</h2>
-      {about.map(p => <p class="prose">{p}</p>)}
-
-      <div class="edu">
-        <div class="edu-head">
-          <h3>{education.school}</h3>
-          <span class="edu-period">{education.period}</span>
-        </div>
-        <p class="edu-degree">{education.degree}</p>
-        <p class="edu-meta">{education.meta}</p>
-        <p class="edu-thesis"><span class="edu-thesis-label">Thesis</span> {education.thesis}</p>
-      </div>
-
-      <div class="skills">
-        <p class="cluster-label">Stack</p>
-        <div class="tags">
-          {skills.map(s => <span class="tag">{s}</span>)}
+    <div class="page-bg" aria-hidden="true"></div>
+    <div class="hero-col">
+      <div class="hero">
+        <p class="eyebrow">{eyebrow}</p>
+        <h1 class="display">Isaac<br />Greenwald</h1>
+        <p class="intro">{intro}</p>
+        <div class="links">
+          {socials.map(s => (
+            <a href={s.href} target={ext(s.href) ? '_blank' : undefined} rel="noopener">{s.label}</a>
+          ))}
         </div>
       </div>
-    </section>
+    </div>
 
-    <section id="projects" class="block">
-      <h2 class="kicker">Projects</h2>
-      <ul class="projects">
-        {projects.map(p => {
-          const Tag = p.href ? 'a' : 'div';
-          return (
-            <li class="project">
-              <Tag class="project-link" href={p.href ?? undefined} target={ext(p.href) ? '_blank' : undefined} rel="noopener">
-                <div class="project-head">
-                  <h3>{p.name}</h3>
-                  {p.href && <span class="arrow">↗</span>}
-                </div>
-                <p class="project-blurb">{p.blurb}</p>
-                <div class="tags">
-                  {p.tags.map(t => <span class="tag">{t}</span>)}
-                </div>
-              </Tag>
+    <div class="content-col">
+      <section id="about" class="block">
+        <h2 class="kicker">About</h2>
+        {about.map(p => <p class="prose">{p}</p>)}
+
+        <div class="edu">
+          <div class="edu-head">
+            <h3>{education.school}</h3>
+            <span class="edu-period">{education.period}</span>
+          </div>
+          <p class="edu-degree">{education.degree}</p>
+          <p class="edu-meta">{education.meta}</p>
+          <p class="edu-thesis"><span class="edu-thesis-label">Thesis</span> {education.thesis}</p>
+        </div>
+
+        <div class="skills">
+          <p class="cluster-label">Stack</p>
+          <div class="tags">
+            {skills.map(s => <span class="tag">{s}</span>)}
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="block">
+        <h2 class="kicker">Projects</h2>
+        <ul class="projects">
+          {projects.map(p => {
+            const Tag = p.href ? 'a' : 'div';
+            return (
+              <li class="project">
+                <Tag class="project-link" href={p.href ?? undefined} target={ext(p.href) ? '_blank' : undefined} rel="noopener">
+                  <div class="project-head">
+                    <h3>{p.name}</h3>
+                    {p.href && <span class="arrow">↗</span>}
+                  </div>
+                  <p class="project-blurb">{p.blurb}</p>
+                  <div class="tags">
+                    {p.tags.map(t => <span class="tag">{t}</span>)}
+                  </div>
+                </Tag>
+              </li>
+            );
+          })}
+        </ul>
+      </section>
+
+      <section id="experience" class="block">
+        <h2 class="kicker">Experience</h2>
+        <ul class="experience">
+          {experience.map(e => (
+            <li class="exp">
+              <div class="exp-period">{e.period}</div>
+              <div class="exp-body">
+                <h3>{e.role} <span class="exp-org">· {e.org}</span></h3>
+                <ul class="exp-points">
+                  {e.points.map(pt => <li>{pt}</li>)}
+                </ul>
+              </div>
             </li>
-          );
-        })}
-      </ul>
-    </section>
+          ))}
+        </ul>
+      </section>
 
-    <section id="experience" class="block">
-      <h2 class="kicker">Experience</h2>
-      <ul class="experience">
-        {experience.map(e => (
-          <li class="exp">
-            <div class="exp-period">{e.period}</div>
-            <div class="exp-body">
-              <h3>{e.role} <span class="exp-org">· {e.org}</span></h3>
-              <ul class="exp-points">
-                {e.points.map(pt => <li>{pt}</li>)}
-              </ul>
-            </div>
-          </li>
-        ))}
-      </ul>
-    </section>
-
-    <section id="contact" class="block">
-      <h2 class="kicker">Contact</h2>
-      <p class="prose">The best way to reach me is email - otherwise find me below.</p>
-      <div class="links">
-        {socials.map(s => (
-          <a href={s.href} target={ext(s.href) ? '_blank' : undefined} rel="noopener">{s.label}</a>
-        ))}
-      </div>
-    </section>
+      <section id="contact" class="block">
+        <h2 class="kicker">Contact</h2>
+        <p class="prose">The best way to reach me is email - otherwise find me below.</p>
+        <div class="links">
+          {socials.map(s => (
+            <a href={s.href} target={ext(s.href) ? '_blank' : undefined} rel="noopener">{s.label}</a>
+          ))}
+        </div>
+      </section>
+    </div>
   </main>
 
   <script>
@@ -206,15 +211,52 @@ const ext = href => href && href.startsWith('http');
     .home {
       flex: 1;
       width: 100%;
-      max-width: 800px;
+      max-width: 1400px;
       margin: 0 auto;
-      padding: 0 2.5rem 7rem;
+      padding: 0 clamp(2.5rem, 5vw, 6rem) 0 clamp(4rem, 11vw, 12rem);
+      display: grid;
+      grid-template-columns: 1.05fr 1fr;
+      gap: 3.5rem;
       position: relative;
       z-index: 1;
     }
 
-    /* ---------- HERO ---------- */
-    .hero { padding: clamp(3rem, 14vh, 9rem) 0 5rem; }
+    .hero-col {
+      position: sticky;
+      top: 0;
+      align-self: start;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding-top: 20vh;
+    }
+    .page-bg {
+      position: fixed;
+      top: 42%;
+      left: 0;
+      transform: translateY(-50%);
+      width: min(100rem, 75vw);
+      aspect-ratio: 1272 / 705;
+      z-index: -1;
+      pointer-events: none;
+      background:
+        linear-gradient(95deg, rgba(10, 10, 10, 0.26) 0%, rgba(10, 10, 10, 0.42) 48%, rgba(10, 10, 10, 0) 76%) center / 100% 100% no-repeat,
+        url('/hands.png') center / cover no-repeat;
+      filter: brightness(0.45) contrast(1.0);
+      -webkit-mask-image: radial-gradient(ellipse 70% 74% at 32% 46%, #000 8%, rgba(0, 0, 0, 0.35) 48%, transparent 70%);
+      mask-image: radial-gradient(ellipse 70% 74% at 32% 46%, #000 8%, rgba(0, 0, 0, 0.35) 48%, transparent 70%);
+    }
+    .hero {
+      position: relative;
+      z-index: 1;
+      max-width: 34rem;
+      padding-left: clamp(1.5rem, 6vw, 6rem);
+      padding-right: 1rem;
+    }
+    .hero .display,
+    .hero .intro { text-shadow: 0 1px 16px rgba(0, 0, 0, 0.6); }
+
     .eyebrow {
       font-family: var(--font-mono);
       font-size: 0.74rem;
@@ -226,14 +268,14 @@ const ext = href => href && href.startsWith('http');
     .display {
       font-family: var(--font-serif);
       font-weight: 500;
-      font-size: clamp(3.2rem, 11vw, 6.5rem);
-      line-height: 0.96;
+      font-size: clamp(2.6rem, 4.8vw, 4.5rem);
+      line-height: 0.97;
       letter-spacing: -0.025em;
     }
     .intro {
-      margin-top: 2.25rem;
-      max-width: 36rem;
-      font-size: 1.05rem;
+      margin-top: 2rem;
+      max-width: 30rem;
+      font-size: 1.02rem;
       line-height: 1.7;
       color: #b4b4b4;
     }
@@ -242,8 +284,8 @@ const ext = href => href && href.startsWith('http');
     .links {
       display: flex;
       flex-wrap: wrap;
-      gap: 1.75rem;
-      margin-top: 2.5rem;
+      gap: 1.6rem;
+      margin-top: 2.25rem;
       font-family: var(--font-mono);
       font-size: 0.74rem;
       text-transform: uppercase;
@@ -266,10 +308,18 @@ const ext = href => href && href.startsWith('http');
       border-color: transparent;
     }
 
-    /* ---------- SECTIONS ---------- */
+    /* ---------- RIGHT: CONTENT ---------- */
+    .content-col {
+      min-width: 0;
+      padding: 20vh 0 7rem;
+    }
     .block {
-      padding: 4.5rem 0;
+      padding: 4rem 0;
       border-top: 1px solid var(--hairline);
+    }
+    .content-col .block:first-child {
+      border-top: none;
+      padding-top: 0;
     }
     .kicker {
       font-family: var(--font-mono);
@@ -281,7 +331,7 @@ const ext = href => href && href.startsWith('http');
       margin-bottom: 2rem;
     }
     .prose {
-      max-width: 40rem;
+      max-width: 38rem;
       font-size: 1.02rem;
       line-height: 1.75;
       color: #b4b4b4;
@@ -291,7 +341,7 @@ const ext = href => href && href.startsWith('http');
     /* ---------- EDUCATION ---------- */
     .edu {
       margin-top: 2.25rem;
-      max-width: 40rem;
+      max-width: 38rem;
       background: var(--surface);
       border: 1px solid var(--hairline);
       border-left: 2px solid var(--accent);
@@ -394,13 +444,12 @@ const ext = href => href && href.startsWith('http');
     .project-head h3 {
       font-family: var(--font-serif);
       font-weight: 500;
-      font-size: 1.45rem;
+      font-size: 1.4rem;
     }
     .arrow { color: var(--faint); transition: color 0.2s ease, transform 0.2s ease; }
     a.project-link:hover .arrow { color: var(--accent); transform: translate(2px, -2px); }
     .project-blurb {
       margin-top: 0.55rem;
-      max-width: 44rem;
       color: #9a9a9a;
       font-size: 0.96rem;
       line-height: 1.6;
@@ -411,8 +460,8 @@ const ext = href => href && href.startsWith('http');
     .experience { list-style: none; }
     .exp {
       display: grid;
-      grid-template-columns: 9rem 1fr;
-      gap: 1.5rem;
+      grid-template-columns: 8rem 1fr;
+      gap: 1.25rem;
       padding: 1.6rem 0;
       border-bottom: 1px solid var(--hairline);
     }
@@ -448,8 +497,37 @@ const ext = href => href && href.startsWith('http');
       color: #555;
     }
 
-    @media (max-width: 600px) {
-      .home { padding: 0 1.4rem 4rem; }
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 880px) {
+      .home {
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 0 1.5rem;
+      }
+      .page-bg {
+        top: 0;
+        transform: none;
+        width: 100%;
+        height: 55vh;
+        aspect-ratio: auto;
+        background:
+          linear-gradient(to bottom, rgba(10, 10, 10, 0.5) 0%, rgba(10, 10, 10, 0.85) 55%, rgba(10, 10, 10, 1) 80%) center top / 100% 100% no-repeat,
+          url('/hands.png') center top / cover no-repeat;
+        filter: brightness(0.52) contrast(1.04);
+        -webkit-mask-image: linear-gradient(to bottom, #000 0 30%, transparent 78%);
+        mask-image: linear-gradient(to bottom, #000 0 30%, transparent 78%);
+      }
+      .hero { max-width: none; padding-left: 0; }
+      .hero-col {
+        position: static;
+        height: auto;
+        min-height: 60vh;
+        padding: 3rem 0 2rem;
+        margin: 0 -1.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+      }
+      .content-col { padding: 2rem 0 4rem; }
       .exp { grid-template-columns: 1fr; gap: 0.5rem; }
     }
   </style>
