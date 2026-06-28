@@ -22,6 +22,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Build Astro site
         uses: withastro/action@v3
+        with:
+          node-version: 22
         # Runs `npm ci` + `npm run build`, which triggers the `prebuild`
         # script (scripts/build-photos.mjs) to regenerate public/photos.
 
