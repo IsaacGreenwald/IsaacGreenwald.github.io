@@ -12,19 +12,18 @@ const nav = [
 const eyebrow = 'Software Engineer · Boulderer · Photographer';
 
 const intro =
-  'Full-stack software engineer at Copado. I love working end-to-end — building the systems that ' +
-  'have to work and the interfaces that make it yours. Outside of work I enjoy v12 bouldering, ' +
-  'and film and digital photography. CS grad from Colorado College.';
+  'Full-stack software engineer at Copado. I like working end-to-end — building the systems that ' +
+  'have to work and the interfaces that make them feel like yours. Off the clock: bouldering at a ' +
+  'V12 level, plus film and digital photography.';
 
 const about = [
-  'I build AI tooling, full-stack web apps, and developer infrastructure — usually because I spot some everyday friction and want to ship the fix.',
-  'My background is computer science with a minor in statistics. At Colorado College my thesis dug into how students really use AI — and it left me caring as much about how these tools get used as how they get built.'
+  'I build AI tooling, web apps, and developer infrastructure — usually because I hit some everyday friction and want to ship the fix.',
+  'My thesis dug into how students actually use AI, and it left me caring as much about how these tools get used as how they get built.'
 ];
 
 const education = {
   school: 'Colorado College',
   degree: 'B.A. Computer Science, Minor in Statistics',
-  meta: 'GPA 3.89 · Dean’s List',
   thesis: 'Analysis of Artificial Intelligence Use at Colorado College',
   period: 'May 2025'
 };
@@ -287,9 +286,12 @@ const ext = href => href && href.startsWith('http');
       gap: 1.6rem;
       margin-top: 2.25rem;
       font-family: var(--font-mono);
-      font-size: 0.74rem;
+      font-size: 0.92rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
+    }
+    .hero .links {
+      margin-top: 3rem;
     }
     .links a {
       opacity: 0.7;
@@ -323,7 +325,7 @@ const ext = href => href && href.startsWith('http');
     }
     .kicker {
       font-family: var(--font-mono);
-      font-size: 0.72rem;
+      font-size: 0.85rem;
       text-transform: uppercase;
       letter-spacing: 0.16em;
       color: var(--accent);
@@ -356,10 +358,10 @@ const ext = href => href && href.startsWith('http');
     }
     .edu-period {
       font-family: var(--font-mono);
-      font-size: 0.72rem;
+      font-size: 0.78rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
-      color: var(--faint);
+      color: #a6a6a6;
       white-space: nowrap;
     }
     .edu h3 { font-size: 1.3rem; font-weight: 500; letter-spacing: -0.01em; }
@@ -400,13 +402,13 @@ const ext = href => href && href.startsWith('http');
     }
     .tag {
       font-family: var(--font-mono);
-      font-size: 0.66rem;
+      font-size: 0.84rem;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       color: var(--muted);
       border: 1px solid rgba(255, 255, 255, 0.16);
       border-radius: 999px;
-      padding: 0.25rem 0.65rem;
+      padding: 0.38rem 0.85rem;
       transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
     }
     .tag:hover {
@@ -468,10 +470,10 @@ const ext = href => href && href.startsWith('http');
     .exp:last-child { border-bottom: none; }
     .exp-period {
       font-family: var(--font-mono);
-      font-size: 0.72rem;
+      font-size: 0.78rem;
       text-transform: uppercase;
       letter-spacing: 0.06em;
-      color: var(--faint);
+      color: #a6a6a6;
       padding-top: 0.3rem;
     }
     .exp-body h3 { font-size: 1.08rem; font-weight: 500; }
