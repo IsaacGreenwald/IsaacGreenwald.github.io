@@ -8,6 +8,7 @@ const photos = getFilmPhotos();
 
 <PhotoLayout title="35mm - Isaac Greenwald" active="35mm">
   <main>
+    <h1 class="sr-only">35mm Film</h1>
     <JustifiedGallery photos={photos} targetRowHeight={300} gap={0} uniform client:visible />
   </main>
 

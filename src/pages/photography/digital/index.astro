@@ -7,6 +7,7 @@ const sets = getDigitalSets();
 
 <PhotoLayout title="Digital - Isaac Greenwald" active="digital">
   <main class="page">
+    <h1 class="sr-only">Digital</h1>
     <section class="sets">
       {sets.map((set, i) => (
         <a class="set" href={`/photography/digital/${set.place}`} style={`--i:${i}`}>
@@ -44,25 +45,6 @@ const sets = getDigitalSets();
       max-width: 1280px;
       margin: 0 auto;
       padding: 1rem 2.25rem 5rem;
-    }
-
-    .intro {
-      max-width: 40rem;
-      margin: clamp(1rem, 5vh, 3.5rem) 0 3rem;
-    }
-    .eyebrow {
-      font-size: 0.7rem;
-      text-transform: uppercase;
-      letter-spacing: 0.22em;
-      color:rgb(193, 193, 193);
-      margin-bottom: 1rem;
-    }
-    .intro h1 {
-      font-family: var(--font-serif);
-      font-weight: 500;
-      font-size: clamp(1.9rem, 4vw, 3rem);
-      line-height: 1.08;
-      letter-spacing: -0.01em;
     }
 
     .sets {
