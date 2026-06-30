@@ -100,7 +100,7 @@ const ext = (href: string) => href && href.startsWith('http');
 const openNew = (href: string) => ext(href) || (href && href.endsWith('.pdf'));
 ---
 
-<PhotoLayout title="Isaac Greenwald" links={nav}>
+<PhotoLayout title="Isaac Greenwald" links={nav} transparentHeader>
   <main class="home">
     <div class="hero-col">
       <div class="page-bg" aria-hidden="true"></div>
@@ -203,7 +203,7 @@ const openNew = (href: string) => ext(href) || (href && href.endsWith('.pdf'));
       flex: 1;
       width: 100%;
       max-width: 1400px;
-      margin: 0 auto;
+      margin: calc(-1 * var(--header-h)) auto 0;
       padding: 0 clamp(2.5rem, 5vw, 6rem) 0 clamp(4rem, 11vw, 12rem);
       display: grid;
       grid-template-columns: 1.05fr 1fr;
@@ -221,11 +221,11 @@ const openNew = (href: string) => ext(href) || (href && href.endsWith('.pdf'));
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
-      padding-top: 20vh;
+      padding-top: calc(20vh + var(--header-h));
     }
     .page-bg {
       position: absolute;
-      top: 28%;
+      top: calc(28% + var(--header-h));
       left: calc(-1 * (clamp(4rem, 11vw, 12rem) + max(0px, (100vw - 1300px) / 2)));
       transform: translateY(-50%);
       width: min(100rem, 75vw);
@@ -320,7 +320,7 @@ const openNew = (href: string) => ext(href) || (href && href.endsWith('.pdf'));
     /* ---------- RIGHT: CONTENT ---------- */
     .content-col {
       min-width: 0;
-      padding: 20vh 0 7rem;
+      padding: calc(20vh + var(--header-h)) 0 7rem;
       position: relative;
       z-index: 2;
     }

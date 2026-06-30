@@ -2,6 +2,7 @@
 const {
   title = 'Isaac Greenwald',
   active = '',
+  transparentHeader = false,
   links = [
     { href: '/photography', label: 'Color', key: 'color' },
     { href: '/photography/digital', label: 'Digital', key: 'digital' },
@@ -26,10 +27,10 @@ const {
     <div class="fx fx-glow" aria-hidden="true"></div>
     <div class="fx fx-grain" aria-hidden="true"></div>
 
-    <header class="topbar">
+    <header class:list={['topbar', { transparent: transparentHeader }]}>
       <a class="wordmark" href="/">Isaac Greenwald</a>
       <nav class="nav">
-        {links.map(link => (
+        {links.map((link: { href: string; label: string; key?: string }) => (
           <a href={link.href} class:list={{ active: active === link.key }}>{link.label}</a>
         ))}
       </nav>
@@ -47,6 +48,7 @@ const {
         --faint: #6a6a6a;
         --hairline: rgba(255, 255, 255, 0.08);
         --accent: #e0a24e;
+        --header-h: 4.6rem;
 
         --font-sans: 'Inter', system-ui, sans-serif;
         --font-serif: 'Newsreader', Georgia, serif;
@@ -116,12 +118,26 @@ const {
       }
 
       .topbar {
-        position: relative;
-        z-index: 1;
+        position: sticky;
+        top: 0;
+        z-index: 10;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 1.75rem 2.5rem;
+        background: rgba(10, 10, 10, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+      }
+      .topbar.transparent {
+        background: linear-gradient(
+          to right,
+          transparent 0%,
+          transparent 45%,
+          rgba(10, 10, 10, 1) 54%
+        );
+        backdrop-filter: none;
+        -webkit-backdrop-filter: none;
       }
       .wordmark {
         font-family: var(--font-mono);
