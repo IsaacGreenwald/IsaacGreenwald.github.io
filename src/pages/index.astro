@@ -96,8 +96,8 @@ const socials = [
   { label: 'Resume', href: '/resume.pdf' }
 ];
 
-const ext = href => href && href.startsWith('http');
-const openNew = href => ext(href) || (href && href.endsWith('.pdf'));
+const ext = (href: string) => href && href.startsWith('http');
+const openNew = (href: string) => ext(href) || (href && href.endsWith('.pdf'));
 ---
 
 <PhotoLayout title="Isaac Greenwald" links={nav}>
@@ -183,7 +183,7 @@ const openNew = href => ext(href) || (href && href.endsWith('.pdf'));
   <script>
     document.querySelectorAll('a[href^="mailto:"]').forEach(a => {
       a.addEventListener('click', async e => {
-        const email = a.getAttribute('href').replace('mailto:', '');
+        const email = (a.getAttribute('href') || '').replace('mailto:', '');
         try {
           await navigator.clipboard.writeText(email);
           e.preventDefault();
